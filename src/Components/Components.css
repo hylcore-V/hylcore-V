@@ -82,6 +82,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .sub-img {
+    width: 80vw;
+}
   #responsive {
     display: block;
     padding: 6px;
@@ -128,4 +131,10 @@
     padding-left: 0%;
     padding-right: 0%;
   }
+}
+
+@media (max-width: 425px) {
+  .sub-img {
+    width: 75vw;
+}
 }

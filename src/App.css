@@ -66,8 +66,8 @@ li {
 }
 
 /* portfolio page mobile sidebar horizon scroll customize code */
-.scroll-container { 
-  white-space: nowrap; 
+.scroll-container {
+  white-space: nowrap;
   scrollbar-width: thin; /* For Firefox */
   scrollbar-color: #888 #f0f0f0; /* For Firefox: thumb and track color */
 }
@@ -90,8 +90,6 @@ li {
 .scroll-container::-webkit-scrollbar-thumb:hover {
   background-color: #555;
 }
-
-
 
 /* common style */
 
@@ -145,7 +143,7 @@ li {
   /* display: block; */
   width: fit-content;
   text-decoration: none;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
   white-space: nowrap;
   padding: 6px 16px;
   margin: 4px 8px;
@@ -363,7 +361,7 @@ code {
   text-decoration: underline;
 }
 .private-link {
-    font-style: italic;
+  font-style: italic;
   text-decoration: none;
   color: rgb(69, 69, 69);
   font-size: 20px;
@@ -503,7 +501,7 @@ code {
     transform: translateY(-20px);
     transition: all 0.3s ease;
     padding: 16px 40px;
-}
+  }
 
   .mobile-nav-links.show {
     display: flex;
@@ -522,14 +520,24 @@ code {
 @media (max-width: 920px) {
   .projects-overview {
     width: 50vw !important;
-}
-
+  }
 }
 
 @media (max-width: 768px) {
-  .about-main h1, .about-main p {
+  .seo-img-pan {
+    width: 61vw !important;
+  }
+  .sub-img {
+    width: 99vw;
+    height: auto;
+  }
+  .blog-main > div {
+    width: 90%;
+  }
+  .about-main h1,
+  .about-main p {
     width: 70vw;
-}
+  }
   .mainroutes {
     padding-left: 5%;
     padding-right: 5%;
@@ -547,23 +555,30 @@ code {
   }
   .projects-overview {
     width: 86vw !important;
-}
-.project-detail-description > div {
-  width: 87% !important;
-}
+  }
+  .project-detail-description > div {
+    width: 87% !important;
+  }
 }
 @media (max-width: 425px) {
+  .seo-img-pan {
+    width: 75vw !important;
+  }
+  .blog-main > div {
+    width: 95%;
+  }
   .project-detail-description > div {
     width: 94% !important;
-}
+  }
   .home-rust-subttl {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-  .about-main h1, .about-main p {
+  .about-main h1,
+  .about-main p {
     width: 80vw;
-}
+  }
   .glitch-title img {
     width: 70%;
   }
@@ -579,7 +594,7 @@ code {
   .home-gavin > span {
     text-align: center;
   }
-.mobile-nav-links a {
-  font-size: 24px;
-}
+  .mobile-nav-links a {
+    font-size: 24px;
+  }
 }
