@@ -95,6 +95,7 @@
 .project-detail-fv {
     width: 50%;
     height: auto;
+    border-radius: 20px;
 }
 .project-ttl-comment {
   font-size: 18px;
@@ -108,7 +109,7 @@
 .project-link-grp {
   padding: 20px 0;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 16px;
 }
 .project-link {

@@ -420,6 +420,22 @@ code {
   width: 40px;
   height: auto;
 }
+.brixo-sub-image-pan {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.brixo-sub-image {
+  width: 33% !important;
+  border-radius: 16px;
+}
+.brixo-doc-link {
+  display: flex;
+  flex-direction: column;
+}
+.sub-img {
+  border-radius: 20px;
+}
 
 /* Responsive Styles */
 @media (min-width: 1025px) {

@@ -7,7 +7,7 @@ import Index from "./Portfolio/Index";
 // portfolio category
 import Frontend from "./Portfolio/Frontend";
 import Blockchain from "./Portfolio/Blockchain";
-import Substrate from "./Portfolio/Substrate";
+import Dapp from "./Portfolio/Dapp";
 import Polkadot from "./Portfolio/Polkadot";
 import React from "./Portfolio/React";
 import BlockExplorer from "./Portfolio/BlockExplorer";
@@ -32,6 +32,7 @@ import IconGenerator from "./Portfolio/Projects/IconGenerator";
 import KicksEcommerce from "./Portfolio/Projects/KicksEcommerce";
 import SignsForTrucks from "./Portfolio/Projects/SignsForTrucks";
 import TravelExplorer from "./Portfolio/Projects/TravelExplorer";
+import BrixoDapp from "./Portfolio/Projects/BrixoDapp";
 
 // import css file
 import "./Components.css";
@@ -102,22 +103,22 @@ function Portfolio() {
           }
           to="polkadot"
         >
-          Polkadot
-          <span>2</span>
+          Polkadot & Substrate
+          <span>4</span>
         </NavLink>
 
         {/* substrate */}
         <NavLink
-          onClick={() => handleNavLinkClick("substrate")}
+          onClick={() => handleNavLinkClick("dapp")}
           className={
-            activeLink === "substrate"
+            activeLink === "dapp"
               ? "portfolio-tag gradient-pan"
               : "portfolio-tag"
           }
-          to="substrate"
+          to="dapp"
         >
-          Substrate
-          <span>2</span>
+          Dapp
+          <span>1</span>
         </NavLink>
         {/* block explorer */}
         <NavLink
@@ -193,7 +194,7 @@ function Portfolio() {
           {/* portfolio category */}
           <Route path="frontend" element={<Frontend />}></Route>
           <Route path="blockchain" element={<Blockchain />}></Route>
-          <Route path="substrate" element={<Substrate />}></Route>
+          <Route path="dapp" element={<Dapp />}></Route>
           <Route path="polkadot" element={<Polkadot />}></Route>
           <Route path="react" element={<React />}></Route>
           <Route path="block-explorer" element={<BlockExplorer />}></Route>
@@ -224,6 +225,7 @@ function Portfolio() {
           <Route path="kicks-ecommerce" element={<KicksEcommerce />}></Route>
           <Route path="signs-for-trucks" element={<SignsForTrucks />}></Route>
           <Route path="travel-explorer" element={<TravelExplorer />}></Route>
+          <Route path="brixo-dapp" element={<BrixoDapp />}></Route>
         </Routes>
       </div>
     </div>
