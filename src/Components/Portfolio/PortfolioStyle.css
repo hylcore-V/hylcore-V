@@ -47,8 +47,7 @@
 .portfolio-fv {
     width: 100%;
     height: auto;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+   border-radius: 12px;
 }
 .project-image {
   display: flex;
@@ -71,6 +70,9 @@
     transition: box-shadow 0.3s ease;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    padding: 16px;
+    position: relative;
+    padding-bottom: 56px;
 }
 .projects-overview:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -146,5 +148,9 @@
 .subsocial-img-grp img {
   width: 72px;
   height: auto;
+}
+.project-overview-tag-grp {
+  position: absolute;
+  bottom: 28px;
 }
 

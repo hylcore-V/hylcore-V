@@ -168,10 +168,6 @@ function Reactseo() {
           Remember, SEO is about providing value to your users—if you do that
           well, search engines will follow.
         </p>
-        <p>
-          If you find any error in this writing you can send me an email @{" "}
-          <span style={{ color: "#24cc85" }}>hyliver0109@gmail.com</span>
-        </p>
       </div>
     </div>
   );

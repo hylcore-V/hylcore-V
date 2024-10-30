@@ -35,6 +35,11 @@ function Polkadot() {
               Real-time multi-chain Explorer for Polkadot, Kusama, Rococo
               networks.
             </p>
+            <div className="project-overview-tag-grp">
+            <span className="blockchain-tag blog-tag">Blockchain</span>
+            <span className="polkadot-tag blog-tag">Polkadot</span>
+            <span className="frontend-tag blog-tag">Typescript</span>
+          </div>
           </div>
         </div>
         <div
@@ -51,6 +56,11 @@ function Polkadot() {
             <p>
             Wagerr smart contract written in Ink, a Rust-based smart contract language for the Polkadot ecosystem
             </p>
+            <div className="project-overview-tag-grp">
+  <span className="polkadot-tag blog-tag">Polkadot</span>
+          <span className="blog-tag">Dapp</span>
+          <span className="blog-tag">Ink</span>
+   </div>
           </div>
         </div>
         <div
@@ -68,6 +78,11 @@ function Polkadot() {
               This project contains Substrate based runtime for Paralink
               Network.
             </p>
+            <div className="project-overview-tag-grp">
+        <span className="substrate-tag blog-tag">substrate</span>
+          <span className="polkadot-tag blog-tag">polkadot</span>
+          <span className="blog-tag">oracle</span>
+   </div>
           </div>
         </div>
 
@@ -85,6 +100,12 @@ function Polkadot() {
               Bitcoin's layer2 smart contract network has already supported WASM
               and EVM, and is supporting MoveVM.
             </p>
+            <div className="project-overview-tag-grp">
+                   <span className="substrate-tag blog-tag">substrate</span>
+          <span className="blog-tag">Layer2</span>
+             <span className="blog-tag">Move</span>
+ <span className="blog-tag">Multichain</span>
+          </div>
           </div>
         </div>
       </div>

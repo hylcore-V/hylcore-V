@@ -34,6 +34,11 @@ function Blockchain() {
               Real-time multi-chain Explorer for Polkadot, Kusama, Rococo
               networks.
             </p>
+            <div className="project-overview-tag-grp">
+            <span className="blockchain-tag blog-tag">Blockchain</span>
+            <span className="polkadot-tag blog-tag">Polkadot</span>
+            <span className="frontend-tag blog-tag">Typescript</span>
+          </div>
           </div>
         </div>
         <div
@@ -47,6 +52,12 @@ function Blockchain() {
           <div className="project-overview-sub">
             <h2>Drips Network Contract</h2>
             <p>💧 Drips Protocol Smart Contracts</p>
+            <div className="project-overview-tag-grp">
+        <span className="eth-tag blog-tag">EVM</span>
+          <span className="blog-tag">Smart Contract</span>
+          <span className="blockchain-tag blog-tag">Blockchain</span>
+          <span className="blog-tag">Funding</span>
+          </div>
           </div>
         </div>
         <div
@@ -63,6 +74,12 @@ function Blockchain() {
             <p>
             Command-line tool for building, deploying and upgrading Diamond Standard contracts on EVM chains.
             </p>
+            <div className="project-overview-tag-grp">
+                     <span className="eth-tag blog-tag">Solidity</span>
+          <span className="eth-tag blog-tag">EVM</span>
+          <span className="blog-tag">Diamond Standard</span>
+          <span className="blog-tag">Eip-2535</span>
+          </div>
           </div>
         </div>
         <div
@@ -79,6 +96,12 @@ function Blockchain() {
             <p>
             High level implementation of the ERC-20 tokens contract
             </p>
+            <div className="project-overview-tag-grp">
+            <span className="eth-tag blog-tag">Solidity</span>
+          <span className="eth-tag blog-tag">ERC-20</span>
+          <span className="eth-tag blog-tag">Ethereum</span>
+          <span className="blog-tag">Smart Contracts</span>
+          </div>
           </div>
         </div>
         <div
@@ -95,6 +118,12 @@ function Blockchain() {
             <p>
             Layerswap V8 Atomic Bridging Protocol
             </p>
+            <div className="project-overview-tag-grp">
+               <span className="bitcoin-tag blog-tag">Bitcoin</span>
+          <span className="eth-tag blog-tag">EVM</span>
+          <span className="blog-tag">Solana</span>
+          <span className="blog-tag">Ton</span>
+   </div>
           </div>
         </div>
       </div>

@@ -26,7 +26,7 @@ function ERC20Contract() {
         />
         <div className="project-link-grp">
           <div className="project-link">
-            <img src="/assets/icons/website.webp" alt="website" />
+            <img src="/assets/icons/github.webp" alt="github" />
             <a
               className="doc-link"
               href="https://github.com/hylcore-V/ERC-20-Contract"

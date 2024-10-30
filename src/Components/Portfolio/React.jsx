@@ -35,6 +35,12 @@ function React() {
             <p>
               An open-source e-commerce app built with Next.js and Tailwind CSS.
             </p>
+            <div className="project-overview-tag-grp">
+             <span className="frontend-tag blog-tag">React.JS</span>
+          <span className="frontend-tag blog-tag">Next.JS</span>
+          <span className="frontend-tag blog-tag">E-commerce</span>
+          <span className="frontend-tag blog-tag">Tailwind CSS</span>
+   </div>
           </div>
         </div>
         <div
@@ -53,6 +59,11 @@ function React() {
               contains the fronted app developed using Next Js for a better
               React js experience
             </p>
+            <div className="project-overview-tag-grp">
+    <span className="frontend-tag blog-tag">Next.JS</span>
+          <span className="frontend-tag blog-tag">E-commerce</span>
+          <span className="blog-tag">Docker</span>
+   </div>
           </div>
         </div>
         <div
@@ -71,6 +82,12 @@ function React() {
               informative experience for users interested in traveling to
               Indonesia, Nepal, and Thailand.
             </p>
+            <div className="project-overview-tag-grp">
+    <span className="frontend-tag blog-tag">React</span>
+          <span className="frontend-tag blog-tag">Next.js</span>
+          <span className="frontend-tag blog-tag">Typescript</span>
+          <span className="blog-tag">Swiper</span>
+   </div>
           </div>
         </div>
         <div
@@ -88,6 +105,10 @@ function React() {
               About Elise is an e-commerce website built with Next.js and Chakra
               UI.
             </p>
+            <div className="project-overview-tag-grp">
+               <span className="frontend-tag blog-tag">E-commerce</span>
+          <span className="frontend-tag blog-tag">Next.js</span>
+          </div>
           </div>
         </div>
         <div
@@ -105,6 +126,10 @@ function React() {
               This project is based on a Healthcare hospitalsservice in this
               project and the technology is used here is react js.
             </p>
+            <div className="project-overview-tag-grp">
+<span className="frontend-tag blog-tag">React.JS</span>
+          <span className="frontend-tag blog-tag">MUI</span>       
+   </div>
           </div>
         </div>
         <div
@@ -120,6 +145,12 @@ function React() {
             <p>
               The project is a simplified implementation of Subsocial Web App
             </p>
+            <div className="project-overview-tag-grp">
+  <span className="blog-tag">Subsocial</span>
+          <span className="blog-tag">Next.JS</span>
+          <span className="substrate-tag blog-tag">Substrate</span>
+   <span className="blog-tag">Social Media</span>
+   </div>
           </div>
         </div>
         <div
@@ -136,6 +167,11 @@ function React() {
             <p>
             The Bicycle E-commerce platform is a modern online store that offers a seamless shopping experience for cycling enthusiasts. 
             </p>
+            <div className="project-overview-tag-grp">
+                 <span className="frontend-tag blog-tag">React.JS</span>
+          <span className="frontend-tag blog-tag">Next.JS</span>
+          <span className="frontend-tag blog-tag">E-commerce</span>
+          </div>
           </div>
         </div>
       

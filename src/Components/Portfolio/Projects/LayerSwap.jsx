@@ -52,7 +52,7 @@ function LayerswapV8() {
         <div className="project-tag-grp tag-grp">
           <span className="rust-tag blog-tag">Rust</span>
           <span className="frontend-tag blog-tag">Typescript</span>
-          <span className="blog-tag">Bitcoin</span>
+          <span className="bitcoin-tag blog-tag">Bitcoin</span>
           <span className="eth-tag blog-tag">Solidity</span>
           <span className="eth-tag blog-tag">EVM</span>
           <span className="blog-tag">Solana</span>

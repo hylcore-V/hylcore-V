@@ -33,6 +33,10 @@ function Ecommerce() {
             About Elise is an e-commerce website built with Next.js and Chakra
             UI.
           </p>
+          <div className="project-overview-tag-grp">
+               <span className="frontend-tag blog-tag">E-commerce</span>
+          <span className="frontend-tag blog-tag">Next.js</span>
+          </div>
         </div>
       </div>
       <div
@@ -49,6 +53,11 @@ function Ecommerce() {
           <p>
           The Bicycle E-commerce platform is a modern online store that offers a seamless shopping experience for cycling enthusiasts. 
           </p>
+          <div className="project-overview-tag-grp">
+                 <span className="frontend-tag blog-tag">React.JS</span>
+          <span className="frontend-tag blog-tag">Next.JS</span>
+          <span className="frontend-tag blog-tag">E-commerce</span>
+          </div>
         </div>
       </div>
       <div
@@ -65,6 +74,12 @@ function Ecommerce() {
           <p>
             An open-source e-commerce app built with Next.js and Tailwind CSS.
           </p>
+          <div className="project-overview-tag-grp">
+             <span className="frontend-tag blog-tag">React.JS</span>
+          <span className="frontend-tag blog-tag">Next.JS</span>
+          <span className="frontend-tag blog-tag">E-commerce</span>
+          <span className="frontend-tag blog-tag">Tailwind CSS</span>
+   </div>
         </div>
       </div>
       <div
@@ -83,6 +98,11 @@ function Ecommerce() {
               contains the fronted app developed using Next Js for a better
               React js experience
             </p>
+            <div className="project-overview-tag-grp">
+    <span className="frontend-tag blog-tag">Next.JS</span>
+          <span className="frontend-tag blog-tag">E-commerce</span>
+          <span className="blog-tag">Docker</span>
+   </div>
           </div>
         </div>
     </div>

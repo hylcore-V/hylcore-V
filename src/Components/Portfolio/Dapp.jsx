@@ -35,6 +35,11 @@ function Substrate() {
             <p>
             A decentralized application that allows users to swap and bridge assets across various blockchain networks, enhancing liquidity and interoperability.
             </p>
+            <div className="project-overview-tag-grp">
+                  <span className="eth-tag blog-tag">Swap</span>
+          <span className="rust-tag blog-tag">Bridge</span>
+          <span className="blockchain-tag blog-tag">li.fi SDK</span>
+          </div>
           </div>
         </div>
       </div>

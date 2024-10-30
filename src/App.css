@@ -110,34 +110,52 @@ li {
   cursor: pointer;
   transition: box-shadow 0.3s ease;
   font-weight: 450;
+  border: 1px dotted #a9a9a9;
+}
+.bitcoin-tag {
+  color: #696401;
+  background-color: #eeebb5 !important;
+  border: 1px dotted #bbb200;
 }
 .frontend-tag {
   color: #0969da;
   background-color: #ddf4ff !important;
+  border: 1px dotted #4b9cfa;
+
 }
 .blockchain-tag {
   color: #510e31 !important;
   background-color: rgb(213, 179, 246) !important;
+  border: 1px dotted #ec6bae;
 }
 .polkadot-tag {
   color: #e80c81;
   background-color: #ffd4e1 !important;
+  border: 1px dotted #f064af;
+
 }
 .substrate-tag {
   color: #00482a;
   background-color: #aaf4d5 !important;
+  border: 1px dotted #0eca7b;
+
 }
 .ai-tag {
   color: #01645c;
-  background-color: #a7faf3 !important;
+  background-color: #01645c !important;
+  border: 1px dotted #0eca7b;
 }
 .eth-tag {
   color: #112b90;
   background-color: #c8d3ff !important;
+  border: 1px dotted #3b5fed;
+
 }
 .rust-tag {
   color: #672601;
   background-color: #fcd5be !important;
+  border: 1px dotted #e16f2d;
+
 }
 .portfolio-tag {
   /* display: block; */
@@ -220,6 +238,21 @@ li {
   animation: gradientChangeTxt 4s ease infinite;
   font-weight: 600;
 }
+.home-gradient-text {
+  background: linear-gradient(120deg, #24cc85, #e6007a , #24cc85);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradientChangeTxt 4s ease infinite;
+  font-size: 32px;
+  font-weight: 600;
+}
+.home-gradient-text span {
+  font-weight: 700;
+  font-size: 34px;font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 @keyframes gradientChangePan {
   0% {
@@ -255,6 +288,10 @@ li {
   font-style: italic;
   font-weight: 400;
   border-radius: 8px;
+  background: #f4f4f4;
+  width: fit-content;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .logo {
   width: 56px;
@@ -352,12 +389,13 @@ code {
 .doc-link {
   font-style: italic;
   text-decoration: underline;
-  color: var(--pink);
-  font-size: 20px;
+  color: #24cc85;
+  font-size: 18px;
   transition: color 0.3s ease, color 0.3s ease;
+  font-weight: 600;
 }
 .doc-link:hover {
-  color: var(--green);
+  color: #1b3c2e;
   text-decoration: underline;
 }
 .private-link {

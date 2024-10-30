@@ -36,6 +36,10 @@ function Ai() {
             <p>
             This is a SaaS app. You can generate any icons with an AI
             </p>
+            <div className="project-overview-tag-grp">
+          <span className="frontend-tag blog-tag">Next.JS</span>
+          <span className="polkadot-tag blog-tag">AI</span>
+   </div>
           </div>
         </div>
       </div>
