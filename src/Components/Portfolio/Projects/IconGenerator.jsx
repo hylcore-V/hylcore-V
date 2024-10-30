@@ -48,7 +48,7 @@ function IconGenerator() {
         </p>
         <div className="project-tag-grp tag-grp">
           <span className="frontend-tag blog-tag">React.JS</span>
-          <span className="polkadot-tag">AI</span>
+          <span className="polkadot-tag blog-tag">AI</span>
           <span className="blog-tag">tRPC</span>
           <span className="frontend-tag blog-tag">Tailwind CSS</span>
         </div>
