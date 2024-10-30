@@ -35,6 +35,7 @@ function Blogindex() {
           <span className="blog-tag">ZK-rollup</span>
           <span className="polkadot-tag blog-tag">Polkadot</span>
           <span className="blog-tag">Bridge</span>
+          <span className="ai-tag blog-tag">AI</span>
         </div>
         <div className="blog-footer home-grp home-grp-footer">
           <div><h4>© 2024 • Powered by Hylcore</h4></div>
