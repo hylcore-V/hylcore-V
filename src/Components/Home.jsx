@@ -16,7 +16,7 @@ function Home() {
       <div>
         <div style={{ paddingBottom: "28px" }}>
           <h2 className="home-gradient-text">
-           Here is <span>Hylcore</span> Digital World!
+            Here is <span>Hylcore</span> Digital World!
           </h2>
           <p>
             Blockchain and decentralized tech are changing how we handle data
@@ -159,19 +159,7 @@ function Home() {
           </p>
         </div>
         <div className="home-grp home-grp-footer">
-          <div className="home-grp-main">
-          <div className="home-footer">
-              <img src="/assets/icons/github.webp" alt="github" />
-              <a href="https://github.com/hylcore-V" target="_blank" rel="noopener noreferrer">
-                Github Link
-              </a>
-          </div>
-          <div className="home-footer">
-              <img src="/assets/icons/eye.png" alt="eye" />
-              Visitors: 2439
-          </div>
-          </div>
-          <div></div>
+          <div><h4>© 2024 • Powered by Hylcore</h4></div>
         </div>
       </div>
     </div>

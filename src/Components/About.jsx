@@ -47,7 +47,11 @@ function About() {
           lead that charge. <br /> Every line of code I write is a step toward a
           smarter, more connected future.
         </p>
+        <div className="home-grp home-grp-footer">
+          <div><h4>© 2024 • Powered by Hylcore</h4></div>
+        </div>
       </div>
+      
     </div>
   );
 }

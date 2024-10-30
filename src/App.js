@@ -74,7 +74,7 @@ function App() {
             })}
             onClick={() => setMobileNavVisible(false)}
           >
-            Portfolio
+            Projects
           </NavLink>
           <NavLink
             to="/about"
@@ -134,7 +134,7 @@ function App() {
             fontWeight: isActive ? "600" : "400",
           })}
         >
-          Portfolio
+          Projects
         </NavLink>
         <NavLink
           to="/about"

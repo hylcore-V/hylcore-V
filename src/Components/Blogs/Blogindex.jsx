@@ -36,7 +36,11 @@ function Blogindex() {
           <span className="polkadot-tag blog-tag">Polkadot</span>
           <span className="blog-tag">Bridge</span>
         </div>
+        <div className="blog-footer home-grp home-grp-footer">
+          <div><h4>© 2024 • Powered by Hylcore</h4></div>
+        </div>
       </div>
+      
     </div>
   );
 }

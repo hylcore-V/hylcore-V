@@ -90,6 +90,7 @@
   align-items: center;
   justify-content: center; 
   margin-bottom: 0 !important;
+  flex-direction: column;
 }
 .home-footer {
   display: flex;
@@ -98,13 +99,11 @@
   padding: 6px 12px ;
   border: 2px solid white;
   border-radius: 8px;
-}
-.home-footer:hover {
-  background-color: white;
-  border: 2px solid rgb(226, 226, 226);
+  color: white;
 }
 .home-grp-main {
-  background: rgb(226, 226, 226);
+  color: white;
+  background: #3878b3;
   display: flex;
   border-radius: 8px;
 }
@@ -114,7 +113,7 @@
 }
 .home-footer a {
   text-decoration: none;
-  color: #222222;
+  color: white;
 }
 .home-footer:first-child {
   padding-right: 12px;
