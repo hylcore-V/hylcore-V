@@ -13,6 +13,10 @@ function Bridge() {
       <div className="blog-ttl">
         <div>
           <h1>The Role of Bridges in Blockchain Networks</h1>
+          <div className="blog-main-img">
+        <div></div>
+        <img src="/assets/bridge.webp" className="sub-img" alt="bridge" />
+      </div>
           <p>
             Blockchain bridges, also known as cross-chain bridges, are integral
             components in the world of blockchain and cryptocurrency. They serve
@@ -28,12 +32,9 @@ function Bridge() {
           <span className="blockchain-tag blog-tag">Blockchain</span>
           <span className="blog-tag">Bridge</span>
         </div>
-        <h3 className="post-date"> Posted on September 24, 2023</h3>
+        <h3 className="post-date"> Posted on August 24, 2024</h3>
       </div>
-      <div className="blog-main-img">
-        <div></div>
-        <img src="/assets/bridge.webp" className="sub-img" alt="bridge" />
-      </div>
+     
       <div className="blog-description">
         <div>
           <h2 className="hover-dot">

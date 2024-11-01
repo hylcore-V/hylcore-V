@@ -177,7 +177,7 @@ function ERC20Contract() {
             />
           </h2>
           <p>
-            The ERC-20 protocol was proposed in November 2015 by Fabian
+            The ERC-20 protocol was proposed in September 2015 by Fabian
             Vogelsteller, a developer in the Ethereum ecosystem, and Vitalik
             Buterin, the creator of Ethereum. At the time, Ethereum was still in
             its early stages, and the need for a standardized token interface

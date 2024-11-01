@@ -24,13 +24,13 @@
 .seo-img:hover {
   transform: scale(1.45);
 }
-.blog-main a {
+/* .blog-main a {
   font-style: italic;
   text-decoration: underline;
   color: var(--pink);
   font-size: 20px;
   transition: color 0.3s ease, color 0.3s ease;
-}
+} */
 .blog-main
 a:hover {
   color: var(--green);

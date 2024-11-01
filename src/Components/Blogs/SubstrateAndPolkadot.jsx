@@ -14,22 +14,22 @@ function SubstrateAndPolkadot() {
       <div className="blog-ttl">
         <div>
           <h1>Substrate & Polkadot </h1>
-          <h3>Revolutionizing Blockchain Development</h3>
+          <div className="blog-main-img">
+            <div></div>
+            <img
+              src="/assets/substratePolkadot.webp"
+              className="sub-img"
+              alt="substrate & polkadot"
+            />
+          </div>
         </div>
         <div className="blog-tag-grp">
           <span className="substrate-tag blog-tag">Substrate</span>
           <span className="polkadot-tag blog-tag">Polkadot</span>
         </div>
-        <h3 className="post-date"> Posted on August 17, 2023</h3>
+        <h3 className="post-date"> Posted on June 17, 2024</h3>
       </div>
-      <div className="blog-main-img">
-        <div></div>
-        <img
-          src="/assets/substratePolkadot.webp"
-          className="sub-img"
-          alt="substrate & polkadot"
-        />
-      </div>
+
       <div className="blog-description">
         <div>
           <h2 className="home-subtitle">
@@ -56,7 +56,7 @@ function SubstrateAndPolkadot() {
               </span>
               Gavin Wood,
               <span
-              className="person-intro"
+                className="person-intro"
                 style={{
                   fontSize: "18px",
                   fontWeight: "400",
@@ -68,12 +68,20 @@ function SubstrateAndPolkadot() {
               </span>
             </div>
           </h2>
-          <p style={{backgroundColor: "#fff3f9", borderRadius: "28px", padding: "6px 18px", fontSize: "20px", fontStyle: "italic"}}>
-          &nbsp;&nbsp;&nbsp;"Substrate strives to be the best blockchain framework in which to
-            build your custom blockchain. Substrate is not a blockchain in
-            itself, but akin to a blockchain SDK framework. Substrate empowers
-            you to build beyond the capabilities of others, giving you the
-            freedom to define your chain however you want."
+          <p
+            style={{
+              backgroundColor: "#fff3f9",
+              borderRadius: "28px",
+              padding: "6px 18px",
+              fontSize: "20px",
+              fontStyle: "italic",
+            }}
+          >
+            &nbsp;&nbsp;&nbsp;"Substrate strives to be the best blockchain
+            framework in which to build your custom blockchain. Substrate is not
+            a blockchain in itself, but akin to a blockchain SDK framework.
+            Substrate empowers you to build beyond the capabilities of others,
+            giving you the freedom to define your chain however you want."
           </p>
           <h2>Introduction </h2>
           <p>
@@ -95,8 +103,12 @@ function SubstrateAndPolkadot() {
             <img src="/assets/substrate.webp" alt="substrate logo" />
           </h2>
           <p>
-            <a className="doc-link" href="https://docs.substrate.io/"> Substrate</a> is a modular, flexible, and extensible framework designed
-            for building custom blockchains. Developed by Parity Technologies,
+            <a className="doc-link" href="https://docs.substrate.io/">
+              {" "}
+              Substrate
+            </a>{" "}
+            is a modular, flexible, and extensible framework designed for
+            building custom blockchains. Developed by Parity Technologies,
             Substrate allows developers to create blockchains tailored to
             specific use cases without having to start from scratch. It provides
             a set of pre-built modules, called pallets, which can be customized
@@ -132,11 +144,15 @@ function SubstrateAndPolkadot() {
             <img src="/assets/polkadot.webp" alt="substrate logo" />
           </h2>
           <p>
-          <a className="doc-link" href="https://docs.substrate.io/"> Polkadot</a>, also developed by Parity Technologies, is a
-            next-generation blockchain protocol that enables multiple
-            blockchains to operate together seamlessly. It provides a foundation
-            for a decentralized web, where independent blockchains can exchange
-            information and trustlessly interact.
+            <a className="doc-link" href="https://docs.substrate.io/">
+              {" "}
+              Polkadot
+            </a>
+            , also developed by Parity Technologies, is a next-generation
+            blockchain protocol that enables multiple blockchains to operate
+            together seamlessly. It provides a foundation for a decentralized
+            web, where independent blockchains can exchange information and
+            trustlessly interact.
           </p>
           <h3> Key Components of Polkadot</h3>
           <ul>

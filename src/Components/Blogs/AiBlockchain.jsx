@@ -14,6 +14,14 @@ function AiBlockchain() {
         <div>
           <h1>Blockchain and AI</h1>
           <h3 style={{textAlign: "center"}}>A Powerful Combination for Disruptive Innovation</h3>
+          <div className="blog-main-img">
+        <div></div>
+        <img
+          src="/assets/ai-and-blockchain-main.webp"
+          className="sub-img"
+          alt="AI and Blockchain"
+        />
+      </div>
           <p>
             The convergence of blockchain technology and artificial intelligence
             (AI) is poised to create revolutionary changes across many
@@ -27,16 +35,9 @@ function AiBlockchain() {
           <span className="blockchain-tag blog-tag">Blockchain</span>
           <span className="ai-tag blog-tag">AI</span>
         </div>
-        <h3 className="post-date"> Posted on December 9, 2023</h3>
+        <h3 className="post-date"> Posted on October 9, 2024</h3>
       </div>
-      <div className="blog-main-img">
-        <div></div>
-        <img
-          src="/assets/ai-and-blockchain-main.webp"
-          className="sub-img"
-          alt="AI and Blockchain"
-        />
-      </div>
+     
       <div className="blog-description">
         <div>
           <h2 className="hover-dot">

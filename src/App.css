@@ -379,6 +379,21 @@ li {
   padding-right: 20px;
   font-size: 18px;
 }
+.home-ttl {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.type-writter-effect {
+  text-align: start;
+  
+  font-size: 24px;
+  color: var(--black);
+  font-weight: 400;
+}
+.type-writter-cursor {
+  color: #6f6f6f;
+}
 
 /* common style */
 .dot-ttl {
@@ -392,16 +407,16 @@ code {
   padding: 6px 12px;
 }
 .doc-link {
-  font-style: italic;
-  text-decoration: underline;
-  color: #24cc85;
-  font-size: 18px;
-  transition: color 0.3s ease, color 0.3s ease;
-  font-weight: 600;
+  font-style: italic !important;
+  text-decoration: underline !important;
+  color: #24cc85 !important;
+  font-size: 18px !important;
+  transition: color 0.3s ease, color 0.3s ease !important;
+  font-weight: 600 !important;
 }
 .doc-link:hover {
-  color: #1b3c2e;
-  text-decoration: underline;
+  color: #1b3c2e !important;
+  text-decoration: underline !important;
 }
 .private-link {
   font-style: italic;

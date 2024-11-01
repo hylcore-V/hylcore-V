@@ -24,7 +24,7 @@ function BrixoDapp() {
         <div className="project-link-grp">
           <div className="project-link">
             <img src="/assets/icons/website.webp" alt="website" />
-            <a className="doc-link" href="https://brixo-dapp.vercel.app/">
+            <a className="doc-link" href="https://app.brixo/xyz/">
               Website
             </a>
           </div>

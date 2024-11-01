@@ -52,97 +52,97 @@ function Blog() {
   return (
     <div>
       <div style={{ display: state }} className="blogsidebar">
-        <NavLink
+      <h6> · October  </h6>
+      <NavLink
           onClick={myfun1}
           style={({ isActive }) => ({
-            backgroundColor: isActive ? "#f6f6f6" : "",
             color: isActive ? "#222222" : "#2c3e50",
             fontWeight: isActive ? "600" : "400",
-            borderRight: isActive ? "4px solid #24cc85" : "#24cc85",
-          })}
-          className="bloglink real-bloglink"
-          to="react-seo"
-        >
-          React SEO
-        </NavLink>
-        <NavLink
-          onClick={myfun1}
-          style={({ isActive }) => ({
-            backgroundColor: isActive ? "#f6f6f6" : "",
-            color: isActive ? "#222222" : "#2c3e50",
-            fontWeight: isActive ? "600" : "400",
-            borderRight: isActive ? "4px solid #24cc85" : "#24cc85",
-          })}
-          className="bloglink real-bloglink"
-          to="substrate-and-polkadot"
-        >
-          Substrate & Polkadot
-        </NavLink>
-        <NavLink
-          onClick={myfun1}
-          style={({ isActive }) => ({
-            backgroundColor: isActive ? "#f6f6f6" : "",
-            color: isActive ? "#222222" : "#2c3e50",
-            fontWeight: isActive ? "600" : "400",
-            borderRight: isActive ? "4px solid #24cc85" : "#24cc85",
-          })}
-          className="bloglink real-bloglink"
-          to="layer-two"
-        >
-          Layer2
-        </NavLink>
-        <NavLink
-          onClick={myfun1}
-          style={({ isActive }) => ({
-            backgroundColor: isActive ? "#f6f6f6" : "",
-            color: isActive ? "#222222" : "#2c3e50",
-            fontWeight: isActive ? "600" : "400",
-            borderRight: isActive ? "4px solid #24cc85" : "#24cc85",
-          })}
-          className="bloglink real-bloglink"
-          to="zk-rollup"
-        >
-          ZK-Rollup
-        </NavLink>
-        <NavLink
-          onClick={myfun1}
-          style={({ isActive }) => ({
-            backgroundColor: isActive ? "#f6f6f6" : "",
-            color: isActive ? "#222222" : "#2c3e50",
-            fontWeight: isActive ? "600" : "400",
-            borderRight: isActive ? "4px solid #24cc85" : "#24cc85",
-          })}
-          className="bloglink real-bloglink"
-          to="bridge"
-        >
-          The Role of Bridges...
-        </NavLink>
-        <NavLink
-          onClick={myfun1}
-          style={({ isActive }) => ({
-            backgroundColor: isActive ? "#f6f6f6" : "",
-            color: isActive ? "#222222" : "#2c3e50",
-            fontWeight: isActive ? "600" : "400",
-            borderRight: isActive ? "4px solid #24cc85" : "#24cc85",
-          })}
-          className="bloglink real-bloglink"
-          to="evm"
-        >
-          EVM
-        </NavLink>
-        <NavLink
-          onClick={myfun1}
-          style={({ isActive }) => ({
-            backgroundColor: isActive ? "#f6f6f6" : "",
-            color: isActive ? "#222222" : "#2c3e50",
-            fontWeight: isActive ? "600" : "400",
-            borderRight: isActive ? "4px solid #24cc85" : "#24cc85",
           })}
           className="bloglink real-bloglink"
           to="ai-and-blockchain"
         >
-         Blockchain & AI
+         <span>October 9, 2024 - </span> Blockchain & AI
         </NavLink>
+        <h6> · September  </h6>
+        <NavLink
+          onClick={myfun1}
+          style={({ isActive }) => ({
+            color: isActive ? "#222222" : "#2c3e50",
+            fontWeight: isActive ? "600" : "400",
+          })}
+          className="bloglink real-bloglink"
+          to="evm"
+        >
+          <span>September 16, 2024 - </span> Ethereum Virtual Machine (EVM)
+        </NavLink>
+        <h6> · August  </h6>
+        <NavLink
+          onClick={myfun1}
+          style={({ isActive }) => ({
+            color: isActive ? "#222222" : "#2c3e50",
+            fontWeight: isActive ? "600" : "400",
+          })}
+          className="bloglink real-bloglink"
+          to="bridge"
+        >
+          <span>August 24, 2024 - </span> The Role of Bridges in  Networks
+        </NavLink>
+        <NavLink
+          onClick={myfun1}
+          style={({ isActive }) => ({
+            color: isActive ? "#222222" : "#2c3e50",
+            fontWeight: isActive ? "600" : "400",
+          })}
+          className="bloglink real-bloglink"
+          to="zk-rollup"
+        >
+          <span>August 20, 2024 - </span> ZK-Rollup
+        </NavLink>
+        <h6> · July  </h6>
+
+        <NavLink
+          onClick={myfun1}
+          style={({ isActive }) => ({
+            color: isActive ? "#222222" : "#2c3e50",
+            fontWeight: isActive ? "600" : "400",
+          })}
+          className="bloglink real-bloglink"
+          to="layer-two"
+        >
+         <span>July 4, 2024 - </span> What Is Layer 2?
+        </NavLink>
+        <h6> · June  </h6>
+        <NavLink
+          onClick={myfun1}
+          style={({ isActive }) => ({
+            color: isActive ? "#222222" : "#2c3e50",
+            fontWeight: isActive ? "600" : "400",
+          })}
+          className="bloglink real-bloglink"
+          to="substrate-and-polkadot"
+        >
+         <span>June 17, 2024 - </span> Substrate & Polkadot
+        </NavLink>
+        <h6> · April  </h6>
+
+        <NavLink
+          onClick={myfun1}
+          style={({ isActive }) => ({
+            color: isActive ? "#222222" : "#2c3e50",
+            fontWeight: isActive ? "600" : "400",
+          })}
+          className="bloglink real-bloglink"
+          to="react-seo"
+        >
+          <span>April 20, 2024 - </span> React SEO
+        </NavLink>
+       
+      
+      
+       
+       
+        
       </div>
 
       <div className="blogsroutes">

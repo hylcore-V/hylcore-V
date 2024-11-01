@@ -18,16 +18,6 @@ function Reactseo() {
           Understanding SEO in Single Page Applications (SPAs) Built with React
         </h3>
         <div className="blog-main-img">
-          <div></div>
-        </div>
-        <div className="blog-tag-grp">
-          <span className="frontend-tag blog-tag">React.JS</span>
-          <span className="frontend-tag blog-tag">SEO</span>
-        </div>
-        
-        <h3 className="post-date"> Posted on July 20, 2023</h3>
-      </div>
-      <div className="blog-main-img">
         <div></div>
         <div className="seo-img-pan">
           <img
@@ -37,6 +27,17 @@ function Reactseo() {
           />
         </div>
       </div>
+        <div className="blog-main-img">
+          <div></div>
+        </div>
+        <div className="blog-tag-grp">
+          <span className="frontend-tag blog-tag">React.JS</span>
+          <span className="frontend-tag blog-tag">SEO</span>
+        </div>
+        
+        <h3 className="post-date"> Posted on April 20, 2024</h3>
+      </div>
+  
       <div>
         <p>
           React is a powerful JavaScript library for building user interfaces,

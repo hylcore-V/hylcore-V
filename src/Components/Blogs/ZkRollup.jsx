@@ -15,6 +15,10 @@ function ZkRollup() {
         <div>
           <h1>ZK-Rollup</h1>
           <h3>The Ultimate Layer2 Solution</h3>
+          <div className="blog-main-img">
+        <div></div>
+        <img src="/assets/zkrollup.webp" className="sub-img" alt="ZK-Rollup" />
+      </div>
         </div>
         <div className="blog-tag-grp">
           <span className="blog-tag">Layer 2</span>
@@ -24,12 +28,9 @@ function ZkRollup() {
           <span className="blog-tag">Market Analysis</span>
 
         </div>
-        <h3 className="post-date"> Posted on September 20, 2023</h3>
+        <h3 className="post-date"> Posted on August 20, 2024</h3>
       </div>
-      <div className="blog-main-img">
-        <div></div>
-        <img src="/assets/zkrollup.webp" className="sub-img" alt="ZK-Rollup" />
-      </div>
+      
       <div className="blog-description">
         <div>
           <p>

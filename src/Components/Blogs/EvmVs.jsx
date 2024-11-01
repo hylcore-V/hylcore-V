@@ -14,6 +14,10 @@ function Evm() {
       <div className="blog-ttl">
         <div>
           <h1>Ethereum Virtual Machine (EVM)</h1>
+          <div className="blog-main-img">
+        <div></div>
+        <img src="/assets/evm.webp" className="sub-img" alt="bridge" />
+      </div>
           <p>
             The Ethereum Virtual Machine (EVM) is a decentralized computation
             engine that executes smart contracts on the Ethereum network.{" "}
@@ -32,12 +36,9 @@ function Evm() {
           <span className="eth-tag blog-tag">Ethereum</span>
           <span className="eth-tag blog-tag">EVM</span>
         </div>
-        <h3 className="post-date"> Posted on November 16, 2023</h3>
+        <h3 className="post-date"> Posted on September 16, 2024</h3>
       </div>
-      <div className="blog-main-img">
-        <div></div>
-        <img src="/assets/evm.webp" className="sub-img" alt="bridge" />
-      </div>
+   
       <div className="blog-description">
         <div>
           <h2 className="hover-dot">

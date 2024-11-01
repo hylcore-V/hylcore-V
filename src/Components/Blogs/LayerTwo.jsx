@@ -18,12 +18,16 @@ function Layer2() {
             A layer 2 is any off-chain network, system, or technology built on
             top of a blockchain to help extend its capabilities.
           </h3>
+          <div className="blog-main-img">
+        <div></div>
+        <img src="/assets/layer2.png" className="sub-img" alt="ZK-Rollup" />
+      </div>
         </div>
         <div className="blog-tag-grp">
           <span className="blog-tag">Layer 2</span>
           <span className="blog-tag">Off chain</span>
         </div>
-        <h3 className="post-date"> Posted on October 4, 2023</h3>
+        <h3 className="post-date"> Posted on July 4, 2024</h3>
     
       </div>
 
@@ -31,7 +35,7 @@ function Layer2() {
       <p>
           A layer 2 refers to any off-chain network, system, or technology built
           on top of a{" "}
-          <a href="https://chain.link/education-hub/blockchain"> blockchain</a>{" "}
+          <a className="doc-link" href="https://chain.link/education-hub/blockchain"> blockchain</a>{" "}
           (commonly known as a layer-1 network) that helps extend the
           capabilities of the underlying base layer network. Layer-2 networks
           can support any blockchain to introduce enhancements such as higher
@@ -71,7 +75,7 @@ function Layer2() {
             at scale. <br />
             <br />
             Coined by Ethereum Co-founder Vitalik Buterin, the{" "}
-            <a href="https://vitalik.ca/general/2021/04/07/sharding.html">
+            <a className="doc-link" href="https://vitalik.ca/general/2021/04/07/sharding.html">
               blockchain scalability trilemma{" "}
             </a>{" "}
             posits that blockchains are incapable of scaling effectively while
@@ -114,7 +118,7 @@ function Layer2() {
             <strong> Note:</strong> For the purposes of this post, we will focus
             solely on the execution layer. For a holistic deep dive into scaling
             blockchains, check out this blog post on{" "}
-            <a href="https://blog.chain.link/blockchain-scalability-approaches/">
+            <a  className="doc-link" href="https://blog.chain.link/blockchain-scalability-approaches/">
               {" "}
               blockchain scalability.
             </a>
@@ -135,7 +139,7 @@ function Layer2() {
           <p>
             At a high level, layer-2s typically have two parts: A network that
             processes transactions and a{" "}
-            <a href="https://chain.link/education/smart-contracts">
+            <a className="doc-link" href="https://chain.link/education/smart-contracts">
               {" "}
               smart contract
             </a>{" "}
@@ -338,7 +342,7 @@ function Layer2() {
             Every layer 2 relies on some form of cryptographic proof to settle
             disputes on the base chain. The most prominent proofs today are
             fault proofs and validity proofs (also known as{" "}
-            <a href="https://blog.chain.link/what-is-a-zero-knowledge-proof-zkp/">
+            <a className="doc-link" href="https://blog.chain.link/what-is-a-zero-knowledge-proof-zkp/">
               {" "}
               zero-knowledge proofs
             </a>
@@ -444,7 +448,7 @@ function Layer2() {
           </p>
           <p>
             As a nascent and continually developing technology, most{" "}
-            <a href="https://chain.link/education/web3"> Web3</a>{" "}
+            <a className="doc-link" href="https://chain.link/education/web3"> Web3</a>{" "}
             infrastructural components, including base blockchains and layer 2s,
             have yet to reach the inflection point where it is definitively
             known which approach best suits the needs of the market. However,
