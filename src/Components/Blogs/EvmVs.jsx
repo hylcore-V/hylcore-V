@@ -1,7 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import "./blog.css";
+import TableOfContents from '../../Utils/TableOfContents'; 
 
 function Evm() {
+  const contentRef = useRef(null);
+
   useEffect(() => {
     document.title = "Blog | EVM";
     document.getElementsByTagName("META")[3].content =
@@ -10,7 +13,8 @@ function Evm() {
   }, []);
 
   return (
-    <div className="blog-main">
+       <div ref={contentRef} className="blog-main">
+      <TableOfContents content={contentRef} />
       <div className="blog-ttl">
         <div>
           <h1>Ethereum Virtual Machine (EVM)</h1>

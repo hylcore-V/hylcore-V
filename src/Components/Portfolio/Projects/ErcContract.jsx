@@ -1,13 +1,17 @@
 import React from "react";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+import TableOfContents from '../../../Utils/TableOfContents'; 
 
 function ERC20Contract() {
+  const contentRef = useRef(null);
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
-    <div>
+   <div ref={contentRef}>
+        <TableOfContents content={contentRef} />
       <div className="project-detail-header">
         <h1 className="dot-ttl">
           ERC-20 Token Interface Implementation

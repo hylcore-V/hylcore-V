@@ -491,7 +491,7 @@ code {
   font-size: 20px;
 }
 .about-logo {
-  width: 40px;
+  width: 28px;
   height: auto;
 }
 .brixo-sub-image-pan {
@@ -688,3 +688,49 @@ code {
     font-size: 24px;
   }
 }
+
+
+/* style of table of contents */
+
+
+.table-of-contents {
+  position: fixed;
+  top: 90px;
+  right: 20px;
+  width: 300px !important;
+  background-color: transparent;
+  z-index: 1000;
+  padding: 10px;
+  overflow: auto;
+  max-height: 90vh;
+}
+
+.table-of-contents strong {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.table-of-contents ol {
+  list-style: circle;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  margin-left: 16px;
+}
+.table-of-contents li a {
+  text-decoration: none;
+  font-size: 16px !important;
+  color: var(--black);
+  display: block;
+}
+
+.table-of-contents li.active a {
+  color: var(--green);
+}
+
+/* Smooth scroll for the entire document */
+html {
+  scroll-behavior: smooth;
+}
+

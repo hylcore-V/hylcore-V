@@ -1,7 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import "./blog.css";
+import TableOfContents from '../../Utils/TableOfContents'; 
 
 function SubstrateAndPolkadot() {
+  const contentRef = useRef(null);
+
   useEffect(() => {
     document.title = "Blog | Substrate & Polkadot";
     document.getElementsByTagName("META")[3].content =
@@ -10,7 +13,8 @@ function SubstrateAndPolkadot() {
   }, []);
 
   return (
-    <div className="blog-main">
+   <div ref={contentRef} className="blog-main">
+      <TableOfContents content={contentRef} />
       <div className="blog-ttl">
         <div>
           <h1>Substrate & Polkadot </h1>
@@ -32,7 +36,7 @@ function SubstrateAndPolkadot() {
 
       <div className="blog-description">
         <div>
-          <h2 className="home-subtitle">
+          <h3 className="home-subtitle">
             <img
               src="https://substrate.io/static/160e4595995ede2e4bb4c5f8eb940d75/8d565/gavin-wood.webp"
               alt="gavin wood"
@@ -67,7 +71,7 @@ function SubstrateAndPolkadot() {
                 Parity Technologies
               </span>
             </div>
-          </h2>
+          </h3>
           <p
             style={{
               backgroundColor: "#fff3f9",

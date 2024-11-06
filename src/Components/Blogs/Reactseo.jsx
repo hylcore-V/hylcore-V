@@ -1,7 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import "./blog.css";
+import TableOfContents from '../../Utils/TableOfContents'; 
 
 function Reactseo() {
+  const contentRef = useRef(null);
+
   useEffect(() => {
     document.title = "Blog | React SEO ";
     document.getElementsByTagName("META")[3].content =
@@ -9,7 +12,8 @@ function Reactseo() {
     document.documentElement.scrollTop = 0;
   }, []);
   return (
-    <div className="blog-main">
+    <div ref={contentRef} className="blog-main">
+      <TableOfContents content={contentRef} />
       <div className="blog-ttl">
         <h1>
           Overview - React <span className="gradient-text"> SEO</span>{" "}

@@ -1,7 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import "./blog.css";
+import TableOfContents from '../../Utils/TableOfContents'; 
 
 function Layer2() {
+  const contentRef = useRef(null);
+  
   useEffect(() => {
     document.title = "Blog | What is Layer2?";
     document.getElementsByTagName("META")[3].content =
@@ -10,7 +13,8 @@ function Layer2() {
   }, []);
 
   return (
-    <div className="blog-main">
+    <div ref={contentRef} className="blog-main">
+      <TableOfContents content={contentRef} />
       <div className="blog-ttl">
         <div>
           <h1>What Is Layer 2?</h1>

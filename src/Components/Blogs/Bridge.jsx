@@ -1,7 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import "./blog.css";
+import TableOfContents from '../../Utils/TableOfContents'; 
 
 function Bridge() {
+  const contentRef = useRef(null);
+  
   useEffect(() => {
     document.title = "Blog | Bridge";
     document.getElementsByTagName("META")[3].content = "What is the bridge?";
@@ -9,7 +12,8 @@ function Bridge() {
   }, []);
 
   return (
-    <div className="blog-main">
+    <div ref={contentRef} className="blog-main">
+      <TableOfContents content={contentRef} />
       <div className="blog-ttl">
         <div>
           <h1>The Role of Bridges in Blockchain Networks</h1>

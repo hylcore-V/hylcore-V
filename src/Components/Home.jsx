@@ -43,22 +43,14 @@ function Home() {
           delay={800}
         />
         <p>
-          <span style={{ fontSize: "24px", color: "var(--black)" }}>
+          <span style={{ fontSize: "20px", color: "var(--black)" }}>
             <img src="./assets/rust.webp" className="about-logo" alt="rust" />{" "}
             Rust
           </span>{" "}
-          and{" "}
-          <span style={{ fontSize: "24px", color: "var(--black)" }}>
-            <img
-              src="/assets/substrate.webp"
-              className="about-logo"
-              alt="substrate"
-            />{" "}
-            Substrate
-          </span>{" "}
-          I'm dedicated to developing secure, <br /> scalable blockchain solutions
-          using Rust and Substrate, while crafting dynamic user experiences with
-          <span style={{ fontSize: "24px", color: "#00d8ff" }}>
+        
+          I'm dedicated to developing secure, scalable blockchain solutions
+          using Rust, while crafting dynamic user experiences with
+          <span style={{ fontSize: "20px", color: "var(--black)" }}>
             {" "}
             <img
               src="./assets/react.webp"
