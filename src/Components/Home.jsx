@@ -13,9 +13,9 @@ function Home() {
   }, []);
 
   const phrases = [
-    "I am a Blockchain Developer.",
-    "I am a Frontend Developer.",
-    "I am a Crypto Enthusiaster.",
+    "Blockchain Developer.",
+    "Frontend Developer.",
+    "Crypto Enthusiaster.",
   ];
 
   return (
@@ -31,17 +31,16 @@ function Home() {
         <p>
           I’m{" "}
           <strong style={{ fontSize: "24px", color: "var(--black)" }}>
-            {" "}
-            <img src="/logo.svg" className="about-logo" alt="hylcore" /> Hylcore
-          </strong>{" "}
+           {"<Hylcore />"}{" "}
+          </strong>
           with a passion for precision, constantly pushing the limits of
           Blockchain Technology.
         </p>
         <TypewriterEffect
           phrases={phrases}
-          prefix=""
+          prefix="Hi, I am a "
           speed={100}
-          delay={1000}
+          delay={800}
         />
         <p>
           <span style={{ fontSize: "24px", color: "var(--black)" }}>
