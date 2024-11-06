@@ -23,8 +23,7 @@
        <td align="center" width="90">
         <img src="https://skillicons.dev/icons?i=nextjs" width="45" height="45" alt="Next.js" />
         <br>Next.js
-      </td>
- 
+      </td> 
     </tr>
 </table>
 
