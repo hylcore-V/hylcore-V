@@ -13,9 +13,9 @@
         <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="45" height="45" />
         <br>React
       </td>
-      <td align="center" width="90">
-        <img src="https://techstack-generator.vercel.app/svelte-icon.svg" width="45" height="45" alt="svelte.js" />
-        <br>Svelte.js
+       <td align="center" width="90">
+        <img src="https://skillicons.dev/icons?i=nextjs" width="45" height="45" alt="Next.js" />
+        <br>Next.js
       </td>
         <td align="center" width="90">
           <img src="https://skillicons.dev/icons?i=rust" width="45" height="45" alt="Rust" />
