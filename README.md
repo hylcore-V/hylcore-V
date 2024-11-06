@@ -14,7 +14,7 @@
         <br>React
       </td>
       <td align="center" width="90">
-        <img src="https://skillicons.dev/icons?i=sveltejs" width="45" height="45" alt="svelte.js" />
+        <img src="https://techstack-generator.vercel.app/svelte-icon.svg" width="45" height="45" alt="svelte.js" />
         <br>Svelte.js
       </td>
         <td align="center" width="90">
