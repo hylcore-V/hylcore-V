@@ -31,7 +31,7 @@ function Home() {
         <p>
           I’m{" "}
           <strong style={{ fontSize: "24px", color: "var(--black)" }}>
-           {"<Hylcore />"}{" "}
+            {"<Hylcore />"}{" "}
           </strong>
           with a passion for precision, constantly pushing the limits of
           Blockchain Technology.
@@ -47,7 +47,6 @@ function Home() {
             <img src="./assets/rust.webp" className="about-logo" alt="rust" />{" "}
             Rust
           </span>{" "}
-        
           I'm dedicated to developing secure, scalable blockchain solutions
           using Rust, while crafting dynamic user experiences with
           <span style={{ fontSize: "20px", color: "var(--black)" }}>
@@ -58,7 +57,7 @@ function Home() {
               alt="React logo"
             />{" "}
             React.
-          </span> 
+          </span>
         </p>
         <p>
           This site is your portal to my journey—explore insights on Blockchain
@@ -67,6 +66,29 @@ function Home() {
           Step in and discover what’s next!
         </p>
         <div className="home-grp home-grp-footer">
+          <div>
+            <a href="mailto: hyliver0109@gmail.com">
+              <img
+                src="./assets/mail.png"
+                className="about-logo"
+                alt="Mail logo"
+              />
+            </a>
+            <a href="https://github.com/hylcore-V">
+              <img
+                src="./assets/github.png"
+                className="about-logo"
+                alt="GitHub logo"
+              />
+            </a>
+            <a href="https://github.com/hylcore-V">
+              <img
+                src="./assets/github.png"
+                className="about-logo"
+                alt="GitHub logo"
+              />
+            </a>
+          </div>
           <div>
             <h4>© 2024 • Powered by Hylcore</h4>
           </div>

@@ -317,6 +317,12 @@ li {
   margin-bottom: 40px;
   border-bottom: 1px dotted var(--gray);
 }
+.private-link {
+  color: rgb(165, 165, 165) !important;
+  text-decoration: underline !important;
+  font-size: 16px;
+  cursor: not-allowed;
+}
 
 .mainnav {
   display: flex;

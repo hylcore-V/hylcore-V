@@ -34,12 +34,8 @@ function BrixoDapp() {
           </div>
           <div className="project-link">
             <img src="/assets/icons/github.webp" alt="github" />
-            <a
-              className="doc-link"
-              href="https://github.com/hylcore-V/brixo-dapp"
-            >
-              Github
-            </a>
+            <span className="private-link">Private</span>
+              
           </div>
         </div>
         <p className="project-ttl-comment">
