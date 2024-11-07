@@ -1,10 +1,11 @@
 /* basic style */
 :root {
   --black: #2c3e50;
-  --green: #24cc85;
+  --green: #423be9;
   --gray: #f4f4f4;
   --pink: #e6007a;
   --darkgray: #d4d4d4;
+  --darkGreen: #181647;
 }
 h1,
 h2,
@@ -121,7 +122,6 @@ li {
   color: #0969da;
   background-color: #ddf4ff !important;
   border: 1px dotted #4b9cfa;
-
 }
 .blockchain-tag {
   color: #510e31 !important;
@@ -132,13 +132,11 @@ li {
   color: #e80c81;
   background-color: #ffd4e1 !important;
   border: 1px dotted #f064af;
-
 }
 .substrate-tag {
   color: #00482a;
   background-color: #aaf4d5 !important;
   border: 1px dotted #0eca7b;
-
 }
 .ai-tag {
   color: #01645c;
@@ -149,13 +147,11 @@ li {
   color: #112b90;
   background-color: #c8d3ff !important;
   border: 1px dotted #3b5fed;
-
 }
 .rust-tag {
   color: #672601;
   background-color: #fcd5be !important;
   border: 1px dotted #e16f2d;
-
 }
 .portfolio-tag {
   /* display: block; */
@@ -235,7 +231,7 @@ li {
 }
 
 .gradient-text {
-  background: linear-gradient(90deg, #e6007a, #24cc85, #e6007a);
+  background: linear-gradient(90deg, var(--pink), var(--green), var(--pink));
   background-size: 200% 200%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -244,7 +240,7 @@ li {
   font-weight: 600;
 }
 .home-gradient-text {
-  background: linear-gradient(120deg, #24cc85, #e6007a , #24cc85);
+  background: linear-gradient(120deg, var(--green), var(--pink), var(--green));
   background-size: 200% 200%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -255,8 +251,10 @@ li {
 }
 .home-gradient-text span {
   font-weight: 700;
-  font-size: 34px;font-style: italic;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 34px;
+  font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 @keyframes gradientChangePan {
@@ -270,12 +268,35 @@ li {
     background-position: 0% 50%;
   }
 }
-
+/* .contact-link {
+  padding: 5px;
+  border-radius: 100%;
+  border: 1px dotted var(--green);
+  margin-left: 6px;
+  margin-right: 6px;
+  transition-duration: 150ms;
+} */
+ .home-contact-grp {
+  margin-top: 56px;
+ }
+.contact-link img {
+  width: 32px;
+  height: auto;
+  margin-left: 6px;
+  margin-right: 6px;
+  transition-duration: 150ms;
+  animation-duration: ease-in-out;
+}
+.contact-link img:hover {
+  scale: 115%;
+  transition-duration: 150ms;
+  animation-duration: ease-in-out;
+}
 .gradient-pan {
   background: linear-gradient(
     60deg,
     rgba(230, 0, 122, 0.6),
-    rgba(36, 204, 133, 0.6),
+    var(--green),
     rgba(230, 0, 122, 0.6)
   );
   background-size: 200% 200%;
@@ -299,7 +320,7 @@ li {
   padding-right: 24px;
 }
 .logo {
-  width: 56px;
+  width: 72px;
   height: auto;
 }
 .logo:hover {
@@ -320,7 +341,8 @@ li {
 .private-link {
   color: rgb(165, 165, 165) !important;
   text-decoration: underline !important;
-  font-size: 16px;
+  font-size: 18px !important;
+  font-weight: 600;
   cursor: not-allowed;
 }
 
@@ -336,9 +358,9 @@ li {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
-  padding-top: 12px;
+  padding-top: 0px;
   padding-right: 20px;
-  padding-bottom: 12px;
+  padding-bottom: 0px;
   box-sizing: border-box;
   border-bottom: 1px solid #dddddd;
   z-index: 999;
@@ -392,14 +414,14 @@ li {
 }
 .type-writter-effect {
   text-align: start;
-  
+
   font-size: 24px;
   color: var(--green);
   font-weight: 600;
 }
 .typewriter-prefix {
   text-align: start;
-  
+
   font-size: 22px;
   color: var(--black);
   font-weight: 400;
@@ -413,8 +435,13 @@ li {
 }
 
 @keyframes blink-cursor {
-  from, to { color: transparent }
-  50% { color: #0ca364 }
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #0ca364;
+  }
 }
 
 /* common style */
@@ -431,13 +458,13 @@ code {
 .doc-link {
   font-style: italic !important;
   text-decoration: underline !important;
-  color: #24cc85 !important;
+  color: var(--green) !important;
   font-size: 18px !important;
   transition: color 0.3s ease, color 0.3s ease !important;
   font-weight: 600 !important;
 }
 .doc-link:hover {
-  color: #1b3c2e !important;
+  color: #8a8a8a !important;
   text-decoration: underline !important;
 }
 .private-link {
@@ -695,9 +722,7 @@ code {
   }
 }
 
-
 /* style of table of contents */
-
 
 .table-of-contents {
   position: fixed;
@@ -739,4 +764,3 @@ code {
 html {
   scroll-behavior: smooth;
 }
-

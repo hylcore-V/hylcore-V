@@ -75,7 +75,7 @@
 }
 .projects-overview:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    background-color: #f4fffa;
+    background-color: #eeedff;
 }
 .project-overview-sub {
     padding: 6px 18px;

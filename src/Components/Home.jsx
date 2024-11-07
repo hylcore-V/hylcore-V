@@ -66,24 +66,24 @@ function Home() {
           Step in and discover what’s next!
         </p>
         <div className="home-grp home-grp-footer">
-          <div>
-            <a href="mailto: hyliver0109@gmail.com">
+          <div className="home-contact-grp">
+            <a className = "contact-link" href="mailto:hyliver0109@gmail.com" target="_blank">
               <img
-                src="./assets/mail.png"
+                src="./assets/icons/mail.png"
                 className="about-logo"
                 alt="Mail logo"
               />
             </a>
-            <a href="https://github.com/hylcore-V">
+            <a className = "contact-link" href="https://github.com/hylcore-V">
               <img
-                src="./assets/github.png"
+                src="./assets/icons/github.png"
                 className="about-logo"
                 alt="GitHub logo"
               />
             </a>
-            <a href="https://github.com/hylcore-V">
+            <a className = "contact-link" href="https://t.me/hylcore">
               <img
-                src="./assets/github.png"
+                src="./assets/icons/telegram.png"
                 className="about-logo"
                 alt="GitHub logo"
               />

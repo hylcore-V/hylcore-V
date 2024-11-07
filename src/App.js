@@ -22,12 +22,12 @@ function App() {
           to="/"
           className="bloglink1"
           style={({ isActive }) => ({
-            color: isActive ? "rgb(36, 204, 133)" : "#2c3e50",
+            color: isActive ? "var(--green)" : "#2c3e50",
             fontWeight: isActive ? "600" : "400",
           })}
         >
           <img
-            src="/logo.svg"
+            src="/hylcore.png"
             className="logo"
             alt="hylcore-V logo"
           ></img>
@@ -47,7 +47,7 @@ function App() {
             to="/"
             className="bloglink1"
             style={({ isActive }) => ({
-              color: isActive ? "rgb(36, 204, 133)" : "#2c3e50",
+              color: isActive ? "var(--green)" : "#2c3e50",
               fontWeight: isActive ? "600" : "400",
             })}
             onClick={() => setMobileNavVisible(false)}
@@ -58,7 +58,7 @@ function App() {
             to="/blogs"
             className="bloglink1"
             style={({ isActive }) => ({
-              color: isActive ? "rgb(36, 204, 133)" : "#2c3e50",
+              color: isActive ? "var(--green)" : "#2c3e50",
               fontWeight: isActive ? "600" : "400",
             })}
             onClick={() => setMobileNavVisible(false)}
@@ -69,7 +69,7 @@ function App() {
             to="/portfolio"
             className="bloglink1"
             style={({ isActive }) => ({
-              color: isActive ? "rgb(36, 204, 133)" : "#2c3e50",
+              color: isActive ? "var(--green)" : "#2c3e50",
               fontWeight: isActive ? "600" : "400",
             })}
             onClick={() => setMobileNavVisible(false)}
@@ -80,7 +80,7 @@ function App() {
             to="/about"
             className="bloglink1"
             style={({ isActive }) => ({
-              color: isActive ? "rgb(36, 204, 133)" : "#2c3e50",
+              color: isActive ? "var(--green)" : "#2c3e50",
               fontWeight: isActive ? "600" : "400",
             })}
             onClick={() => setMobileNavVisible(false)}
@@ -96,12 +96,12 @@ function App() {
           to="/"
           className="bloglink1"
           style={({ isActive }) => ({
-            color: isActive ? "rgb(36, 204, 133)" : "#2c3e50",
+            color: isActive ? "var(--green)" : "#2c3e50",
             fontWeight: isActive ? "600" : "400",
           })}
         >
           <img
-            src="/logo.svg"
+            src="/hylcore.png"
             className="logo"
             alt="hylcore-V logo"
           ></img>
@@ -110,7 +110,7 @@ function App() {
           to="/"
           className="bloglink1"
           style={({ isActive }) => ({
-            color: isActive ? "rgb(36, 204, 133)" : "#2c3e50",
+            color: isActive ? "var(--green)" : "#2c3e50",
             fontWeight: isActive ? "600" : "400",
           })}
         >
@@ -120,7 +120,7 @@ function App() {
           to="/blogs"
           className="bloglink1"
           style={({ isActive }) => ({
-            color: isActive ? "rgb(36, 204, 133)" : "#2c3e50",
+            color: isActive ? "var(--green)" : "#2c3e50",
             fontWeight: isActive ? "600" : "400",
           })}
         >
@@ -130,7 +130,7 @@ function App() {
           to="/portfolio"
           className="bloglink1"
           style={({ isActive }) => ({
-            color: isActive ? "rgb(36, 204, 133)" : "#2c3e50",
+            color: isActive ? "var(--green)" : "#2c3e50",
             fontWeight: isActive ? "600" : "400",
           })}
         >
@@ -140,7 +140,7 @@ function App() {
           to="/about"
           className="bloglink1"
           style={({ isActive }) => ({
-            color: isActive ? "rgb(36, 204, 133)" : "#2c3e50",
+            color: isActive ? "var(--green)" : "#2c3e50",
             fontWeight: isActive ? "600" : "400",
           })}
         >
