@@ -30,7 +30,7 @@ function About() {
                height: "auto",
                borderRadius: "100%",
                marginRight: "10px",
-               border: "2px solid #24cc85",
+               border: "2px solid var(--green)",
              }}
            />
            <div className="home-gavin">

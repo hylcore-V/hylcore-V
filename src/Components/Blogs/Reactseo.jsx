@@ -173,6 +173,11 @@ function Reactseo() {
           Remember, SEO is about providing value to your users—if you do that
           well, search engines will follow.
         </p>
+        <br />
+          <br />
+          <br />
+          <br />
+          <br />
       </div>
     </div>
   );

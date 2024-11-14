@@ -461,6 +461,11 @@ function Layer2() {
             networks, DAG solutions, and layer 2s that exist today in order to
             bring the promises of Web3 to the forefront of society.
           </p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
       </div>
     </div>

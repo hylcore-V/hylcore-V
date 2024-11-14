@@ -1,11 +1,12 @@
 /* basic style */
 :root {
   --black: #2c3e50;
-  --green: #423be9;
+  --green: #2196f3;
   --gray: #f4f4f4;
-  --pink: #e6007a;
+  --pink: #f50057;
   --darkgray: #d4d4d4;
-  --darkGreen: #181647;
+  --darkGreen: #1769aa;
+  --lightGreen: #f0f8ff;
 }
 h1,
 h2,

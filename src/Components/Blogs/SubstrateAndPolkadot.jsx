@@ -239,6 +239,11 @@ function SubstrateAndPolkadot() {
             importance of platforms like Substrate and Polkadot will only
             increase, driving innovation and unlocking new possibilities.
           </p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
       </div>
     </div>
