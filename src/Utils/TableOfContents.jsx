@@ -54,6 +54,7 @@ function TableOfContents({ content }) {
 
   return (
     <div className="table-of-contents">
+      <h3>Table of Contents</h3>
       <ol>
         {headings.map((heading, idx) => (
           <li key={idx} className={heading.id === activeId ? 'active' : ''}>

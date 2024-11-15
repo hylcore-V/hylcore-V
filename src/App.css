@@ -428,11 +428,14 @@ li {
   font-weight: 400;
 }
 .type-writter-cursor {
-  color: #0ca364;
+  color: var(--green);
 }
 
 .type-writter-effect .type-writter-cursor {
   animation: blink-cursor 0.75s step-end infinite;
+}
+.table-of-contents h3 {
+  color: var(--green);
 }
 
 @keyframes blink-cursor {
@@ -441,7 +444,7 @@ li {
     color: transparent;
   }
   50% {
-    color: #0ca364;
+    color: var(--green);
   }
 }
 
