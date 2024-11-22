@@ -468,7 +468,7 @@ code {
   font-weight: 600 !important;
 }
 .doc-link:hover {
-  color: #8a8a8a !important;
+  color: #84acf8 !important;
   text-decoration: underline !important;
 }
 .private-link {
@@ -483,6 +483,10 @@ code {
   background-color: var(--gray);
   padding: 0px 12px;
   border-radius: 20px;
+}
+.dedust-img img{
+  width: 100% !important;
+  border-radius: 10px;
 }
 /* style of portfolio */
 .portfolio-sidebar {
