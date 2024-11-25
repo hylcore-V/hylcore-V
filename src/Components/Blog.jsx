@@ -12,6 +12,11 @@ const LayerTwo = React.lazy(() => import("./Blogs/LayerTwo"));
 const Bridge = React.lazy(() => import("./Blogs/Bridge"));
 const ZkRollup = React.lazy(() => import("./Blogs/ZkRollup"));
 const AiBlockchain = React.lazy(() => import("./Blogs/AiBlockchain"));
+const RustBlog = React.lazy(() => import("./Blogs/RustBlog"));
+const TradingBotBlog = React.lazy(() => import("./Blogs/TradingBotBlog"));
+
+
+
 
 
 
@@ -53,6 +58,28 @@ function Blog() {
     <div>
       <div style={{ display: state }} className="blogsidebar">
       <h6> · October  </h6>
+      <NavLink
+          onClick={myfun1}
+          style={({ isActive }) => ({
+            color: isActive ? "#222222" : "#2c3e50",
+            fontWeight: isActive ? "600" : "400",
+          })}
+          className="bloglink real-bloglink"
+          to="rust"
+        >
+         <span>October 20, 2024 - </span> Rust Programming Language
+        </NavLink>
+        <NavLink
+          onClick={myfun1}
+          style={({ isActive }) => ({
+            color: isActive ? "#222222" : "#2c3e50",
+            fontWeight: isActive ? "600" : "400",
+          })}
+          className="bloglink real-bloglink"
+          to="trading-bot"
+        >
+         <span>October 15, 2024 - </span> Trading Bot Development
+        </NavLink>
       <NavLink
           onClick={myfun1}
           style={({ isActive }) => ({
@@ -251,6 +278,35 @@ function Blog() {
                 }
               >
                 <AiBlockchain />
+              </React.Suspense>
+            }
+          ></Route>
+           <Route
+            path="rust"
+            element={
+              <React.Suspense
+                fallback={
+                  <div style={{ paddingTop: "10%", paddingLeft: "40%" }}>
+                    <Rings></Rings>
+                  </div>
+                }
+              >
+                <RustBlog />
+              </React.Suspense>
+            }
+          ></Route>
+          
+          <Route
+            path="trading-bot"
+            element={
+              <React.Suspense
+                fallback={
+                  <div style={{ paddingTop: "10%", paddingLeft: "40%" }}>
+                    <Rings></Rings>
+                  </div>
+                }
+              >
+                <TradingBotBlog />
               </React.Suspense>
             }
           ></Route>
