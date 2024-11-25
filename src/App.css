@@ -758,7 +758,7 @@ code {
   margin-left: 16px;
 }
 .table-of-contents li a {
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 16px !important;
   color: var(--black);
   display: block;

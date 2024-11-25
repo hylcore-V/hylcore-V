@@ -10,6 +10,9 @@
   padding-right: 20px;
 }
 .blogsidebar {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
   width: 25%;
   /* float: left; */
   height: 100vh;
@@ -33,6 +36,10 @@
   font-weight: 400;
   color: #828282;
 }
+.rust-blog-rust-logo {
+  width: 80px;
+  height: auto;
+}
 .blogsroutes {
   width: 85%;
   background-color: white;
@@ -41,6 +48,30 @@
   padding-left: 3%;
   box-sizing: border-box;
 }
+@keyframes crabScuttle {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  25% {
+    transform: translateX(150px) rotate(10deg);
+  }
+  50% {
+    transform: translateX(400px) rotate(-10deg);
+  }
+  75% {
+    transform: translateX(250px) rotate(5deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+.rust-blog-rust-logo {
+  width: 100px; /* Adjust crab image size */
+  animation: crabScuttle 5s infinite cubic-bezier(0.42, 0, 0.58, 1);
+  position: relative; /* To allow it to move along its parent container */
+}
+
 .blogsidebar h6 {
   line-height: 10px;
   color: var(--green);
