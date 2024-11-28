@@ -6,7 +6,7 @@ function AiBlockchain() {
   const contentRef = useRef(null);
 
   useEffect(() => {
-    document.title = "Blog | Bridge";
+    document.title = "Blog | Blockchain and AI";
     document.getElementsByTagName("META")[3].content = "What is the bridge?";
     document.documentElement.scrollTop = 0;
   }, []);
