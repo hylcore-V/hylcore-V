@@ -180,12 +180,7 @@ li {
   font-weight: 700;
   top: -9px;
   right: -11px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-.portfolio-tag:hover {
-  color: var(--black);
-  background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 4px rgba(79, 192, 214, 0.2);
 }
 .tag-grp {
   display: flex;
@@ -296,9 +291,9 @@ li {
 .gradient-pan {
   background: linear-gradient(
     60deg,
-    rgba(230, 0, 122, 0.6),
+    var(--pink),
     var(--green),
-    rgba(230, 0, 122, 0.6)
+    var(--pink)
   );
   background-size: 200% 200%;
   animation: gradientChangePan 4s ease infinite;
