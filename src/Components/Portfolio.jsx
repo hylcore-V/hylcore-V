@@ -13,7 +13,6 @@ import React from "./Portfolio/React";
 import BlockExplorer from "./Portfolio/BlockExplorer";
 import Ecommerce from "./Portfolio/Ecommerce";
 import Ai from "./Portfolio/Ai";
-import Defi from "./Portfolio/Defi";
 
 // portfolio projects
 import ParalinkNetwork from "./Portfolio/Projects/ParalinkNetwork";
@@ -34,7 +33,6 @@ import KicksEcommerce from "./Portfolio/Projects/KicksEcommerce";
 import SignsForTrucks from "./Portfolio/Projects/SignsForTrucks";
 import TravelExplorer from "./Portfolio/Projects/TravelExplorer";
 import BrixoDapp from "./Portfolio/Projects/BrixoDapp";
-import Dedust from "./Portfolio/Projects/Dedust";
 
 // import css file
 import "./Components.css";
@@ -93,18 +91,6 @@ function Portfolio() {
         >
           Blockchain
           <span>6</span>
-        </NavLink>
-        <NavLink
-          onClick={() => handleNavLinkClick("defi")}
-          className={
-            activeLink === "defi"
-              ? "portfolio-tag gradient-pan"
-              : "portfolio-tag"
-          }
-          to="defi"
-        >
-          Defi
-          <span>1</span>
         </NavLink>
 
         {/* polkadot */}
@@ -214,7 +200,6 @@ function Portfolio() {
           <Route path="block-explorer" element={<BlockExplorer />}></Route>
           <Route path="ecommerce" element={<Ecommerce />}></Route>
           <Route path="ai" element={<Ai />}></Route>
-          <Route path="Defi" element={<Defi />}></Route>
 
           {/* portfolio projects */}
           <Route path="health-care-hospital" element={<Healthcare />}></Route>
@@ -235,7 +220,6 @@ function Portfolio() {
           <Route path="signs-for-trucks" element={<SignsForTrucks />}></Route>
           <Route path="travel-explorer" element={<TravelExplorer />}></Route>
           <Route path="brixo-dapp" element={<BrixoDapp />}></Route>
-          <Route path="dedust" element={<Dedust />}></Route>
         </Routes>
       </div>
     </div>
