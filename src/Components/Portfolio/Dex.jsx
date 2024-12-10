@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./PortfolioStyle.css";
 
-function Substrate() {
+function Dex() {
   useEffect(() => {
     document.title = "Portfolio | Substrate";
     document.getElementsByTagName("META")[3].content =
@@ -47,4 +47,4 @@ function Substrate() {
   );
 }
 
-export default Substrate;
+export default Dex;

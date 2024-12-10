@@ -7,7 +7,7 @@ import Index from "./Portfolio/Index";
 // portfolio category
 import Frontend from "./Portfolio/Frontend";
 import Blockchain from "./Portfolio/Blockchain";
-import Dapp from "./Portfolio/Dapp";
+import Dex from "./Portfolio/Dex";
 import Polkadot from "./Portfolio/Polkadot";
 import React from "./Portfolio/React";
 import BlockExplorer from "./Portfolio/BlockExplorer";
@@ -90,7 +90,7 @@ function Portfolio() {
           to="blockchain"
         >
           Blockchain
-          <span>6</span>
+          <span>5</span>
         </NavLink>
 
         {/* polkadot */}
@@ -109,15 +109,15 @@ function Portfolio() {
 
         {/* substrate */}
         <NavLink
-          onClick={() => handleNavLinkClick("dapp")}
+          onClick={() => handleNavLinkClick("dex")}
           className={
-            activeLink === "dapp"
+            activeLink === "dex"
               ? "portfolio-tag gradient-pan"
               : "portfolio-tag"
           }
-          to="dapp"
+          to="dex"
         >
-          Dapp
+          DEX
           <span>1</span>
         </NavLink>
         {/* block explorer */}
@@ -194,7 +194,7 @@ function Portfolio() {
           {/* portfolio category */}
           <Route path="frontend" element={<Frontend />}></Route>
           <Route path="blockchain" element={<Blockchain />}></Route>
-          <Route path="dapp" element={<Dapp />}></Route>
+          <Route path="dex" element={<Dex />}></Route>
           <Route path="polkadot" element={<Polkadot />}></Route>
           <Route path="react" element={<React />}></Route>
           <Route path="block-explorer" element={<BlockExplorer />}></Route>
