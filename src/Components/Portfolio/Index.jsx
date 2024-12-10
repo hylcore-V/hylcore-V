@@ -17,7 +17,7 @@ function Index() {
   return (
     <div className="portfolio-main">
       <div className="projects-grp">
-      <div
+        <div
           className="projects-overview"
           onClick={() => toDetailPage("/portfolio/brixo-dapp")}
         >
@@ -29,13 +29,10 @@ function Index() {
           <div className="project-overview-sub">
             <h2>Brixo Dapp</h2>
             <p>
-            A decentralized application that allows users to swap and bridge assets across various blockchain networks, enhancing liquidity and interoperability.
+              A decentralized application that allows users to swap and bridge
+              assets across various blockchain networks, enhancing liquidity and
+              interoperability.
             </p>
-            <div className="project-overview-tag-grp">
-                  <span className="eth-tag blog-tag">Swap</span>
-          <span className="rust-tag blog-tag">Bridge</span>
-          <span className="blockchain-tag blog-tag">li.fi SDK</span>
-          </div>
           </div>
         </div>
         <div
@@ -50,13 +47,9 @@ function Index() {
           <div className="project-overview-sub">
             <h2>Rohit Bikes</h2>
             <p>
-            The Bicycle E-commerce platform is a modern online store that offers a seamless shopping experience for cycling enthusiasts.
+              The Bicycle E-commerce platform is a modern online store that
+              offers a seamless shopping experience for cycling enthusiasts.
             </p>
-            <div className="project-overview-tag-grp">
-                 <span className="frontend-tag blog-tag">React.JS</span>
-          <span className="frontend-tag blog-tag">Next.JS</span>
-          <span className="frontend-tag blog-tag">E-commerce</span>
-          </div>
           </div>
         </div>
         <div
@@ -73,12 +66,6 @@ function Index() {
             <p>
               An open-source e-commerce app built with Next.js and Tailwind CSS.
             </p>
-            <div className="project-overview-tag-grp">
-             <span className="frontend-tag blog-tag">React.JS</span>
-          <span className="frontend-tag blog-tag">Next.JS</span>
-          <span className="frontend-tag blog-tag">E-commerce</span>
-          <span className="frontend-tag blog-tag">Tailwind CSS</span>
-   </div>
           </div>
         </div>
         <div
@@ -97,11 +84,6 @@ function Index() {
               contains the fronted app developed using Next Js for a better
               React js experience
             </p>
-            <div className="project-overview-tag-grp">
-    <span className="frontend-tag blog-tag">Next.JS</span>
-          <span className="frontend-tag blog-tag">E-commerce</span>
-          <span className="blog-tag">Docker</span>
-   </div>
           </div>
         </div>
         <div
@@ -116,10 +98,6 @@ function Index() {
           <div className="project-overview-sub">
             <h2>Icon-AI</h2>
             <p>This is a SaaS app. You can generate any icons with an AI</p>
-            <div className="project-overview-tag-grp">
-          <span className="frontend-tag blog-tag">Next.JS</span>
-          <span className="polkadot-tag blog-tag">AI</span>
-   </div>
           </div>
         </div>
         <div
@@ -138,12 +116,6 @@ function Index() {
               informative experience for users interested in traveling to
               Indonesia, Nepal, and Thailand.
             </p>
-            <div className="project-overview-tag-grp">
-    <span className="frontend-tag blog-tag">React</span>
-          <span className="frontend-tag blog-tag">Next.js</span>
-          <span className="frontend-tag blog-tag">Typescript</span>
-          <span className="blog-tag">Swiper</span>
-   </div>
           </div>
         </div>
         <div
@@ -159,12 +131,6 @@ function Index() {
             <p>
               The project is a simplified implementation of Subsocial Web App
             </p>
-            <div className="project-overview-tag-grp">
-  <span className="blog-tag">Subsocial</span>
-          <span className="blog-tag">Next.JS</span>
-          <span className="substrate-tag blog-tag">Substrate</span>
-   <span className="blog-tag">Social Media</span>
-   </div>
           </div>
         </div>
         <div
@@ -182,10 +148,6 @@ function Index() {
               This project is based on a Healthcare hospitalsservice in this
               project and the technology is used here is react js.
             </p>
-            <div className="project-overview-tag-grp">
-<span className="frontend-tag blog-tag">React.JS</span>
-          <span className="frontend-tag blog-tag">MUI</span>       
-   </div>
           </div>
         </div>
         <div
@@ -200,11 +162,6 @@ function Index() {
           <div className="project-overview-sub">
             <h2>Zenlink Protocol Interface</h2>
             <p>An open source interface for the Zenlink protocol</p>
-            <div className="project-overview-tag-grp">
-  <span className="frontend-tag blog-tag">Typescript</span>
-          <span className="blog-tag">Zenlink</span>
-          <span className="polkadot-tag blog-tag">Polkadot</span>
-          <span className="blog-tag">MonoRepo</span>   </div>
           </div>
         </div>
         <div
@@ -222,11 +179,6 @@ function Index() {
               Real-time multi-chain Explorer for Polkadot, Kusama, Rococo
               networks.
             </p>
-            <div className="project-overview-tag-grp">
-            <span className="blockchain-tag blog-tag">Blockchain</span>
-            <span className="polkadot-tag blog-tag">Polkadot</span>
-            <span className="frontend-tag blog-tag">Typescript</span>
-          </div>
           </div>
         </div>
         <div
@@ -244,11 +196,6 @@ function Index() {
               Wagerr smart contract written in Ink, a Rust-based smart contract
               language for the Polkadot ecosystem
             </p>
-            <div className="project-overview-tag-grp">
-  <span className="polkadot-tag blog-tag">Polkadot</span>
-          <span className="blog-tag">Dapp</span>
-          <span className="blog-tag">Ink</span>
-   </div>
           </div>
         </div>
         <div
@@ -266,11 +213,6 @@ function Index() {
               This project contains Substrate based runtime for Paralink
               Network.
             </p>
-            <div className="project-overview-tag-grp">
-        <span className="substrate-tag blog-tag">substrate</span>
-          <span className="polkadot-tag blog-tag">polkadot</span>
-          <span className="blog-tag">oracle</span>
-   </div>
           </div>
         </div>
         <div
@@ -287,12 +229,6 @@ function Index() {
               Bitcoin's layer2 smart contract network has already supported WASM
               and EVM, and is supporting MoveVM.
             </p>
-            <div className="project-overview-tag-grp">
-                   <span className="substrate-tag blog-tag">substrate</span>
-          <span className="blog-tag">Layer2</span>
-             <span className="blog-tag">Move</span>
- <span className="blog-tag">Multichain</span>
-          </div>
           </div>
         </div>
         <div
@@ -306,12 +242,6 @@ function Index() {
           <div className="project-overview-sub">
             <h2>Drips Network Contract</h2>
             <p>💧 Drips Protocol Smart Contracts</p>
-            <div className="project-overview-tag-grp">
-        <span className="eth-tag blog-tag">EVM</span>
-          <span className="blog-tag">Smart Contract</span>
-          <span className="blockchain-tag blog-tag">Blockchain</span>
-          <span className="blog-tag">Funding</span>
-          </div>
           </div>
         </div>
         <div
@@ -329,12 +259,6 @@ function Index() {
               Command-line tool for building, deploying and upgrading Diamond
               Standard contracts on EVM chains.
             </p>
-            <div className="project-overview-tag-grp">
-                     <span className="eth-tag blog-tag">Solidity</span>
-          <span className="eth-tag blog-tag">EVM</span>
-          <span className="blog-tag">Diamond Standard</span>
-          <span className="blog-tag">Eip-2535</span>
-          </div>
           </div>
         </div>
         <div
@@ -349,12 +273,6 @@ function Index() {
           <div className="project-overview-sub">
             <h2>ERC-20 Contract</h2>
             <p>High level implementation of the ERC-20 tokens contract</p>
-            <div className="project-overview-tag-grp">
-            <span className="eth-tag blog-tag">Solidity</span>
-          <span className="eth-tag blog-tag">ERC-20</span>
-          <span className="eth-tag blog-tag">Ethereum</span>
-          <span className="blog-tag">Smart Contracts</span>
-          </div>
           </div>
         </div>
         <div
@@ -372,10 +290,6 @@ function Index() {
               About Elise is an e-commerce website built with Next.js and Chakra
               UI.
             </p>
-            <div className="project-overview-tag-grp">
-               <span className="frontend-tag blog-tag">E-commerce</span>
-          <span className="frontend-tag blog-tag">Next.js</span>
-          </div>
           </div>
         </div>
         <div
@@ -390,12 +304,6 @@ function Index() {
           <div className="project-overview-sub">
             <h2>Layer Swap Atomic Bridge</h2>
             <p>Layerswap V8 Atomic Bridging Protocol</p>
-            <div className="project-overview-tag-grp">
-               <span className="bitcoin-tag blog-tag">Bitcoin</span>
-          <span className="eth-tag blog-tag">EVM</span>
-          <span className="blog-tag">Solana</span>
-          <span className="blog-tag">Ton</span>
-   </div>
           </div>
         </div>
       </div>

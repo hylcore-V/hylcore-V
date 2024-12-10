@@ -33,10 +33,6 @@ function Ecommerce() {
             About Elise is an e-commerce website built with Next.js and Chakra
             UI.
           </p>
-          <div className="project-overview-tag-grp">
-               <span className="frontend-tag blog-tag">E-commerce</span>
-          <span className="frontend-tag blog-tag">Next.js</span>
-          </div>
         </div>
       </div>
       <div
@@ -51,13 +47,9 @@ function Ecommerce() {
         <div className="project-overview-sub">
           <h2>Rohit Bikes</h2>
           <p>
-          The Bicycle E-commerce platform is a modern online store that offers a seamless shopping experience for cycling enthusiasts. 
+            The Bicycle E-commerce platform is a modern online store that offers
+            a seamless shopping experience for cycling enthusiasts.
           </p>
-          <div className="project-overview-tag-grp">
-                 <span className="frontend-tag blog-tag">React.JS</span>
-          <span className="frontend-tag blog-tag">Next.JS</span>
-          <span className="frontend-tag blog-tag">E-commerce</span>
-          </div>
         </div>
       </div>
       <div
@@ -74,37 +66,26 @@ function Ecommerce() {
           <p>
             An open-source e-commerce app built with Next.js and Tailwind CSS.
           </p>
-          <div className="project-overview-tag-grp">
-             <span className="frontend-tag blog-tag">React.JS</span>
-          <span className="frontend-tag blog-tag">Next.JS</span>
-          <span className="frontend-tag blog-tag">E-commerce</span>
-          <span className="frontend-tag blog-tag">Tailwind CSS</span>
-   </div>
         </div>
       </div>
       <div
-          className="projects-overview"
-          onClick={() => toDetailPage("/portfolio/signs-for-trucks")}
-        >
-          <img
-            src="/assets/signfortruck.webp"
-            className="portfolio-fv"
-            alt="signs for truck"
-          />
-          <div className="project-overview-sub">
-            <h2>Signs For Truck</h2>
-            <p>
-              An online store to buy custom vinyl designs for trucks. This repo
-              contains the fronted app developed using Next Js for a better
-              React js experience
-            </p>
-            <div className="project-overview-tag-grp">
-    <span className="frontend-tag blog-tag">Next.JS</span>
-          <span className="frontend-tag blog-tag">E-commerce</span>
-          <span className="blog-tag">Docker</span>
-   </div>
-          </div>
+        className="projects-overview"
+        onClick={() => toDetailPage("/portfolio/signs-for-trucks")}
+      >
+        <img
+          src="/assets/signfortruck.webp"
+          className="portfolio-fv"
+          alt="signs for truck"
+        />
+        <div className="project-overview-sub">
+          <h2>Signs For Truck</h2>
+          <p>
+            An online store to buy custom vinyl designs for trucks. This repo
+            contains the fronted app developed using Next Js for a better React
+            js experience
+          </p>
         </div>
+      </div>
     </div>
   );
 }
