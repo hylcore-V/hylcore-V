@@ -31,19 +31,11 @@ function Whatisreact() {
             <p>
               The project is a simplified implementation of Subsocial Web App
             </p>
-            <div className="project-overview-tag-grp">
-  <span className="blog-tag">Subsocial</span>
-          <span className="blog-tag">Next.JS</span>
-          <span className="substrate-tag blog-tag">Substrate</span>
-   <span className="blog-tag">Social Media</span>
-   </div>
           </div>
         </div>
         <div
           className="projects-overview"
-          onClick={() =>
-            toDetailPage("/portfolio/health-care-hospital")
-          }
+          onClick={() => toDetailPage("/portfolio/health-care-hospital")}
         >
           <img
             src="/assets/healthcare.webp"
@@ -56,10 +48,6 @@ function Whatisreact() {
               This project is based on a Healthcare hospitalsservice in this
               project and the technology is used here is react js.
             </p>
-            <div className="project-overview-tag-grp">
-<span className="frontend-tag blog-tag">React.JS</span>
-          <span className="frontend-tag blog-tag">MUI</span>       
-   </div>
           </div>
         </div>
         <div
@@ -74,11 +62,6 @@ function Whatisreact() {
           <div className="project-overview-sub">
             <h2>Zenlink Protocol Interface</h2>
             <p>An open source interface for the Zenlink protocol</p>
-            <div className="project-overview-tag-grp">
-  <span className="frontend-tag blog-tag">Typescript</span>
-          <span className="blog-tag">Zenlink</span>
-          <span className="polkadot-tag blog-tag">Polkadot</span>
-          <span className="blog-tag">MonoRepo</span>   </div>
           </div>
         </div>
         <div
@@ -97,12 +80,6 @@ function Whatisreact() {
               informative experience for users interested in traveling to
               Indonesia, Nepal, and Thailand.
             </p>
-            <div className="project-overview-tag-grp">
-    <span className="frontend-tag blog-tag">React</span>
-          <span className="frontend-tag blog-tag">Next.js</span>
-          <span className="frontend-tag blog-tag">Typescript</span>
-          <span className="blog-tag">Swiper</span>
-   </div>
           </div>
         </div>
       </div>

@@ -33,11 +33,6 @@ function BlockExplorer() {
             Real-time multi-chain Explorer for Polkadot, Kusama, Rococo
             networks.
           </p>
-          <div className="project-overview-tag-grp">
-            <span className="blockchain-tag blog-tag">Blockchain</span>
-            <span className="polkadot-tag blog-tag">Polkadot</span>
-            <span className="frontend-tag blog-tag">Typescript</span>
-          </div>
         </div>
       </div>
     </div>

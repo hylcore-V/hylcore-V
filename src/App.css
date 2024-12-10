@@ -169,7 +169,7 @@ li {
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   position: relative;
-  z-index: 10;
+  z-index: 997;
 }
 .portfolio-tag span {
   position: absolute;
@@ -359,7 +359,11 @@ li {
   padding-bottom: 0px;
   box-sizing: border-box;
   border-bottom: 1px solid #dddddd;
-  z-index: 999;
+  z-index: 1000;
+  gap: 3%;
+}
+.mobile-mainnav {
+  z-index: 1000;
 }
 
 .mainroutes {
@@ -385,7 +389,6 @@ li {
 }
 
 .bloglink1 {
-  margin-left: 3%;
   text-decoration: none;
   display: inline-block;
   box-sizing: border-box;
@@ -494,19 +497,25 @@ code {
   position: fixed;
   height: 100vh;
   gap: 16px;
+  z-index: 997;
   background-color: transparent;
 }
 .mobile-portfolio-sidebar {
   position: fixed;
-  display: flex;
-  align-items: center;
-  overflow-x: scroll;
-  background-color: white;
-  width: 86vw;
-  padding-right: 24px;
-  margin-top: -12px;
-  padding-top: 28px;
-  padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    left: 0;
+    padding-right: 48px;
+    margin-top: -18px;
+    padding-top: 28px;
+    padding-bottom: 24px;
+    z-index: 995;
+    padding-left: 20px;
+    flex-wrap: wrap;
+}
+.portfolio-tag:last-child {
+  margin-right: 32px;
 }
 /* about page */
 .about-main {
@@ -546,8 +555,30 @@ code {
 .sub-img {
   border-radius: 20px;
 }
+.table-of-contents {
+  position: fixed;
+  top: 90px;
+  right: 20px;
+  width: 300px !important;
+  background-color: transparent;
+  z-index: 1000;
+  padding: 10px;
+  overflow: auto;
+  max-height: 90vh;
+}
 
 /* Responsive Styles */
+
+@media (max-width: 1600px) {
+  .table-of-contents {
+    width: 215px !important;
+  }
+}
+@media (max-width: 1320px) {
+  .table-of-contents {
+    display: none !important;
+  }
+}
 @media (min-width: 1025px) {
   .mobile-mainnav {
     display: none;
@@ -569,9 +600,8 @@ code {
     left: 0;
     right: 0;
     background-color: white;
-    z-index: 999;
+    z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 1em;
     padding-left: 15vw;
     padding-right: 15vw;
     justify-content: space-between;
@@ -587,10 +617,10 @@ code {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
+    width: 40px;
     height: 22px;
     transition: transform 0.3s ease;
-  }
+}
 
   .hamburger-btn .bar1,
   .hamburger-btn .bar2,
@@ -616,8 +646,8 @@ code {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 93px;
-    right: 15vw;
+    top: 78px;
+    /* right: 15vw; */
     background-color: white;
     border: 1px solid #ddd;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
@@ -626,20 +656,27 @@ code {
     opacity: 0;
     transform: translateY(-20px);
     transition: all 0.3s ease;
-    padding: 16px 40px;
+    padding: 0px 0px;
+    width: 100%;
+    left: 0;
   }
 
   .mobile-nav-links.show {
     display: flex;
     opacity: 1;
     transform: translateY(0);
+    align-items: center;
   }
 
   .mobile-nav-links a {
-    margin-bottom: 0.5em;
     font-size: 24px;
     color: var(--black);
     text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-bottom: 1px solid var(--gray);
   }
 }
 
@@ -650,6 +687,16 @@ code {
 }
 
 @media (max-width: 768px) {
+  .mobile-nav-links {
+    top: 78px;
+}
+
+  .mobile-portfolio-sidebar {
+    row-gap: 18px;
+    column-gap: 12px;
+    padding-right: 28px !important;
+    justify-content: center;
+  }
   .seo-img-pan {
     width: 61vw !important;
   }
@@ -684,6 +731,9 @@ code {
   }
   .project-detail-description > div {
     width: 87% !important;
+  }
+  .table-of-contents {
+    display: none;
   }
 }
 @media (max-width: 425px) {
@@ -727,17 +777,7 @@ code {
 
 /* style of table of contents */
 
-.table-of-contents {
-  position: fixed;
-  top: 90px;
-  right: 20px;
-  width: 300px !important;
-  background-color: transparent;
-  z-index: 1000;
-  padding: 10px;
-  overflow: auto;
-  max-height: 90vh;
-}
+
 
 .table-of-contents strong {
   display: block;
