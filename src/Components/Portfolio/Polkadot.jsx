@@ -20,6 +20,28 @@ function Polkadot() {
   return (
     <div>
       <div className="projects-grp">
+      
+        <div
+          className="projects-overview"
+          onClick={() => toDetailPage("/portfolio/wagerr-smart-contract")}
+        >
+          <img
+            src="/assets/wagerr.webp"
+            className="portfolio-fv"
+            alt="Wagerr Smart Contract"
+          />
+          <div className="project-overview-sub">
+            <h2>Wagerr Smart Contract</h2>
+            <p>
+            Wagerr smart contract written in Ink, a Rust-based smart contract language for the Polkadot ecosystem
+            </p>
+            <div className="project-overview-tag-grp">
+  <span className="polkadot-tag blog-tag">Polkadot</span>
+          <span className="blog-tag">Dapp</span>
+          <span className="blog-tag">Ink</span>
+   </div>
+          </div>
+        </div>
         <div
           className="projects-overview"
           onClick={() => toDetailPage("/portfolio/acria-scan-explorer")}
@@ -40,27 +62,6 @@ function Polkadot() {
             <span className="polkadot-tag blog-tag">Polkadot</span>
             <span className="frontend-tag blog-tag">Typescript</span>
           </div>
-          </div>
-        </div>
-        <div
-          className="projects-overview"
-          onClick={() => toDetailPage("/portfolio/wagerr-smart-contract")}
-        >
-          <img
-            src="/assets/wagerr.webp"
-            className="portfolio-fv"
-            alt="Wagerr Smart Contract"
-          />
-          <div className="project-overview-sub">
-            <h2>Wagerr Smart Contract</h2>
-            <p>
-            Wagerr smart contract written in Ink, a Rust-based smart contract language for the Polkadot ecosystem
-            </p>
-            <div className="project-overview-tag-grp">
-  <span className="polkadot-tag blog-tag">Polkadot</span>
-          <span className="blog-tag">Dapp</span>
-          <span className="blog-tag">Ink</span>
-   </div>
           </div>
         </div>
         <div
