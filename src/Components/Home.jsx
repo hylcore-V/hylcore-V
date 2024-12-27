@@ -81,11 +81,11 @@ function Home() {
                 alt="GitHub logo"
               />
             </a>
-            <a className = "contact-link" href="https://t.me/hylcore">
+            <a className = "contact-link" href="https://t.me/@hylcore_10">
               <img
                 src="./assets/icons/telegram.png"
                 className="about-logo"
-                alt="GitHub logo"
+                alt="telegram logo"
               />
             </a>
           </div>
